@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.simon.blog.pojo.*;
 import com.simon.blog.service.*;
 import com.simon.blog.util.StringListUtil;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -33,6 +34,9 @@ public class BlogController {
     private static final String LIST = "admin/admin";
     private static final String REDIRECT = "redirect:/admin/blogs";
 
+    @Value("${pageSize}")
+    private String pageSize;
+
     @Resource
     BlogService blogService;
 
@@ -50,7 +54,7 @@ public class BlogController {
      * */
     @GetMapping("/blogs")
     public String blogs(Model model, HttpServletRequest request){
-        Page<Blog> blogPage = firstShowAndSearchShow(request,null);
+        Page<Blog> blogPage = firstShowAndSearchShow(request);
 
         model.addAttribute("typeList",typeService.listAllType());
         model.addAttribute("blogs",blogPage.getRecords());
@@ -75,12 +79,12 @@ public class BlogController {
          * **/
         Page<Blog> blogPage = null;
         /**根据BlogSearch的值调用不同的分页方法**/
-        blogPage = blogService.pageSearchBlog(new Page<>(Integer.parseInt(page),3),blogSearch);
+        blogPage = blogService.pageSearchBlog(new Page<>(Integer.parseInt(page),Integer.parseInt(pageSize)),blogSearch);
 
         Integer pages = (int)blogPage.getPages();
         if (blogPage.getRecords().size() == 0 && pages< Integer.parseInt(page)){
             if (pages != 0){
-                blogPage = blogService.pageBlog(new Page<>(pages, 3));
+                blogPage = blogService.pageBlog(new Page<>(pages, Integer.parseInt(pageSize)));
             }
         }
 
@@ -154,7 +158,7 @@ public class BlogController {
     /**
      * 首次进入展示页面和根据搜索条件进行数据展示
      * **/
-    private Page<Blog> firstShowAndSearchShow(HttpServletRequest request,BlogSearch blogSearch) {
+    private Page<Blog> firstShowAndSearchShow(HttpServletRequest request) {
         /**初次登陆分类页面直接为page设置值**/
         String page = request.getParameter("page");
         if ("null".equals(page) || page == null || "0".equals(page)){
@@ -166,16 +170,13 @@ public class BlogController {
          * **/
         Page<Blog> blogPage = null;
         /**根据BlogSearch的值调用不同的分页方法**/
-        if (blogSearch != null){
-            blogPage = blogService.pageSearchBlog(new Page<>(Integer.parseInt(page),3),blogSearch);
-        }else {
-            blogPage = blogService.pageBlog(new Page<>(Integer.parseInt(page),3));
-        }
+        blogPage = blogService.pageBlog(new Page<>(Integer.parseInt(page),Integer.parseInt(pageSize)));
+
 
         Integer pages = (int)blogPage.getPages();
 
         if (pages< Integer.parseInt(page)){
-            blogPage = blogService.pageBlog(new Page<>(pages,3));
+            blogPage = blogService.pageBlog(new Page<>(pages,Integer.parseInt(pageSize)));
         }
         return blogPage;
     }

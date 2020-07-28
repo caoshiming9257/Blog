@@ -37,7 +37,8 @@ logging:
 
 
 comment.avatar: /image/photo.jpg
-
+pageSize: 3
+userId: 1
 #mybatis
 mybatis-plus:
   mapper-locations: classpath:mybatis/mapper/*Mapper.xml

@@ -46,20 +46,6 @@ public class TypeController {
         if ("null".equals(page) || page == null){
             page = "1";
         }
-
-        /**先根据page的参数获取数据，然后查看当前当前总页数是否小于page参数，
-         * 为了解决一直点下一页而今天跳转的问题
-         * **/
-        /*Page<Type> typePage = new Page<>(Integer.parseInt(page),5);
-        List<Type> types = typeService.pageType(typePage);
-        Integer pages = (int)typePage.getPages();
-
-        if (pages< Integer.parseInt(page)){
-            typePage = new Page<>(pages,5);
-            types = typeService.pageType(typePage);
-        }*/
-
-
         Page<Type> typePage = typeService.pageType(new Page<>(Integer.parseInt(page),5));
         Integer pages = (int)typePage.getPages();
 

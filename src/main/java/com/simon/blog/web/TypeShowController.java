@@ -10,6 +10,7 @@ import com.simon.blog.service.TypeService;
 import com.simon.blog.service.UserService;
 import com.simon.blog.util.BlogAndTagUtil;
 import com.simon.blog.util.StringListUtil;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -37,6 +38,12 @@ public class TypeShowController {
     @Resource
     UserService userService;
 
+    @Value("${pageSize}")
+    private int pageSize;
+
+    @Value("${userId}")
+    private String userId;
+
     @GetMapping("/types/{id}")
     public String types(@PathVariable Long id, Model model, HttpServletRequest request){
 
@@ -54,7 +61,7 @@ public class TypeShowController {
         model.addAttribute("blogs", BlogAndTagUtil.blogInsertTag(blogPage.getRecords()));
         model.addAttribute("pages",blogPage);
         model.addAttribute("types", list);
-        model.addAttribute("user",userService.findById(Long.parseLong("1")));
+        model.addAttribute("user",userService.findById(Long.parseLong(userId)));
         model.addAttribute("activeTypeId",id);
         return "types";
     }
@@ -70,13 +77,13 @@ public class TypeShowController {
          * 为了解决一直点下一页进行跳转的问题
          * **/
         Page<Blog> blogPage = null;
-        blogPage = blogService.pageSearchBlog(new Page<>(Integer.parseInt(page),3),blogSearch);
+        blogPage = blogService.pageSearchBlog(new Page<>(Integer.parseInt(page),pageSize),blogSearch);
 
 
         Integer pages = (int)blogPage.getPages();
 
         if (pages< Integer.parseInt(page)){
-            blogPage = blogService.pageBlog(new Page<>(pages,3));
+            blogPage = blogService.pageBlog(new Page<>(pages,pageSize));
         }
         return blogPage;
     }

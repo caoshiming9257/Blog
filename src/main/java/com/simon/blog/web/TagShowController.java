@@ -9,6 +9,7 @@ import com.simon.blog.service.TagService;
 import com.simon.blog.service.UserService;
 import com.simon.blog.util.BlogAndTagUtil;
 import com.simon.blog.util.StringListUtil;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -35,6 +36,12 @@ public class TagShowController {
     @Resource
     UserService userService;
 
+    @Value("${pageSize}")
+    private int pageSize;
+
+    @Value("${userId}")
+    private String userId;
+
     /**标签页面**/
     @GetMapping("/tags/{id}")
     public String tags(@PathVariable Long id, Model model, HttpServletRequest request){
@@ -51,7 +58,7 @@ public class TagShowController {
         model.addAttribute("blogs", BlogAndTagUtil.blogInsertTag(blogPage.getRecords()));
         model.addAttribute("pages",blogPage);
         model.addAttribute("tags", list);
-        model.addAttribute("user",userService.findById(Long.parseLong("1")));
+        model.addAttribute("user",userService.findById(Long.parseLong(userId)));
         model.addAttribute("activeTypeId",id);
         return "tags";
     }
@@ -67,13 +74,13 @@ public class TagShowController {
          * 为了解决一直点下一页进行跳转的问题
          * **/
         Page<Blog> blogPage = null;
-        blogPage = blogService.pageByTagId(new Page<>(Integer.parseInt(page),3),tagId);
+        blogPage = blogService.pageByTagId(new Page<>(Integer.parseInt(page),pageSize),tagId);
 
 
         Integer pages = (int)blogPage.getPages();
 
         if (pages< Integer.parseInt(page)){
-            blogPage = blogService.pageBlog(new Page<>(pages,3));
+            blogPage = blogService.pageBlog(new Page<>(pages,pageSize));
         }
         return blogPage;
     }

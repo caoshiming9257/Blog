@@ -1,0 +1,45 @@
+spring:
+  thymeleaf:
+    mode: html
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: 123123
+  messages:
+    basename: global/messages
+
+server:
+  port: 8801
+
+#将tomcat日志输出到指定目录
+#  tomcat:
+#    accesslog:
+#      directory: D:/log/tomcat.log
+#      file-date-format: .yyyy-MM-dd
+#      prefix: access_log
+#      enabled: true
+#      suffix: .log
+
+logging:
+  level:
+    root: info
+    org.springframework.boot.autoconfigure: debug
+    com.simon.blog: debug
+#tomcat的日志输出配置，此处设置为输出到控制台
+    org.apache.tomcat: info
+    org.apache.catalina: info
+  file:
+    path: log/blog.log
+
+
+comment.avatar: /image/photo.jpg
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath:mybatis/mapper/*Mapper.xml
+  configLocation: classpath:mybatis/mybatis-config.xml
+  typeAliasesPackage: com.simon.blog.pojo

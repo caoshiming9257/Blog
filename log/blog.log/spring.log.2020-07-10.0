@@ -1,0 +1,1070 @@
+2020-07-10 10:28:24.224 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 5472 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 10:28:24.232 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 10:28:24.232 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 10:28:29.538 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 61 ] - Started UserServiceImplTest in 6.269 seconds (JVM running for 8.414)
+2020-07-10 10:31:27.919 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 1624 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 10:31:27.919 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 10:31:27.919 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 10:43:40.476 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 15216 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 10:43:40.476 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 10:43:40.476 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 11:39:57.724 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 13380 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 11:39:57.739 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 11:39:57.740 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 11:41:06.430 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 748 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 11:41:06.454 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 11:41:06.459 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 11:41:46.118 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 7404 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 11:41:46.122 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 11:41:46.123 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 11:46:02.005 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 10648 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 11:46:02.007 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 11:46:02.008 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 11:46:05.385 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 11:46:05.660 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 11:46:09.357 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 61 ] - Started UserServiceImplTest in 8.245 seconds (JVM running for 10.677)
+2020-07-10 11:46:09.810 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? 
+2020-07-10 11:46:09.853 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String)
+2020-07-10 11:46:09.909 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 11:46:09.958 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-10 11:46:09.984 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-10 11:46:54.347 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 10244 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 11:46:54.347 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 11:46:54.357 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 11:47:17.022 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 1300 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 11:47:17.028 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 11:47:17.034 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 11:47:21.061 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 11:47:21.288 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 11:47:24.609 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 61 ] - Started UserServiceImplTest in 8.867 seconds (JVM running for 11.23)
+2020-07-10 11:47:24.906 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? 
+2020-07-10 11:47:24.961 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String)
+2020-07-10 11:47:24.993 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 11:47:25.037 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-10 11:47:25.057 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-10 11:49:04.593 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 2668 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 11:49:04.601 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 11:49:04.601 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 11:49:08.171 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 11:49:08.354 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 11:49:10.873 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 61 ] - Started UserServiceImplTest in 7.287 seconds (JVM running for 8.991)
+2020-07-10 11:49:11.222 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? 
+2020-07-10 11:49:11.257 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String)
+2020-07-10 11:49:11.309 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 11:49:11.353 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-10 11:49:11.377 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-10 11:50:39.581 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 9508 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 11:50:39.591 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 11:50:39.594 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 11:50:42.831 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 11:50:43.032 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 11:50:45.668 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 61 ] - Started UserServiceImplTest in 7.171 seconds (JVM running for 8.89)
+2020-07-10 11:50:46.181 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 11:50:46.233 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String), 123123(String)
+2020-07-10 11:50:46.287 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 11:50:46.330 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-10 11:50:46.346 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-10 11:52:41.210 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 14900 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 11:52:41.210 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 11:52:41.210 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 11:52:44.887 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 11:52:45.126 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 11:52:47.756 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 61 ] - Started UserServiceImplTest in 7.545 seconds (JVM running for 9.532)
+2020-07-10 11:52:48.108 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 11:52:48.156 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: nihao(String), 2222(String)
+2020-07-10 11:52:48.203 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 11:52:48.237 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-10 11:52:48.274 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-10 11:57:41.993 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 55 ] - Starting UserServiceImplTest on Simon with PID 13452 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 11:57:41.994 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.UserServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 11:57:41.994 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 11:57:45.545 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 11:57:45.556 [ main ] - [ WARN  ] [ com.zaxxer.hikari.util.DriverDataSource : 70 ] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-10 11:57:45.843 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 11:57:48.199 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.UserServiceImplTest : 61 ] - Started UserServiceImplTest in 7.152 seconds (JVM running for 8.807)
+2020-07-10 11:57:48.523 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 11:57:48.557 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: nihao(String), 2222(String)
+2020-07-10 11:57:48.591 [ main ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 11:57:48.637 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-10 11:57:48.649 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-10 14:45:01.209 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 7368 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 14:45:01.213 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 14:45:01.214 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 14:45:03.339 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 14:45:03.340 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 14:45:03.341 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 14:45:03.423 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 14:45:03.508 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-07-10 14:46:48.056 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 760 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 14:46:48.061 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 14:46:48.065 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 14:46:50.144 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 14:46:50.145 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 14:46:50.146 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 14:46:50.236 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 14:46:50.317 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-07-10 14:47:31.860 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 10456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 14:47:31.864 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 14:47:31.865 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 14:47:34.093 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 14:47:34.094 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 14:47:34.094 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 14:47:34.186 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 14:47:34.272 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-07-10 14:48:57.112 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 11052 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 14:48:57.116 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 14:48:57.116 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 14:48:59.263 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 14:48:59.264 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 14:48:59.264 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 14:48:59.360 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 14:48:59.453 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-07-10 14:50:04.533 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 1416 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 14:50:04.538 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 14:50:04.538 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 14:50:06.787 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 14:50:06.788 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 14:50:06.788 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 14:50:06.862 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 14:50:06.942 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-07-10 14:50:35.781 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13164 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 14:50:35.792 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 14:50:35.793 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 14:50:38.070 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 14:50:38.070 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 14:50:38.071 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 14:50:38.158 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 14:50:38.247 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-07-10 16:02:01.630 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 1476 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 16:02:01.635 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 16:02:01.635 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 16:02:03.834 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 16:02:03.834 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 16:02:03.835 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 16:02:03.922 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 16:02:04.007 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-07-10 16:04:18.305 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 1340 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 16:04:18.309 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 16:04:18.309 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 16:04:20.234 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 16:04:20.234 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 16:04:20.234 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 16:04:20.324 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 16:04:20.422 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-07-10 16:09:29.232 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 11972 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 16:09:29.242 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 16:09:29.242 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 16:09:30.987 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 16:09:30.988 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 16:09:30.988 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 16:09:31.064 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 16:09:31.144 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-07-10 16:16:20.570 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 14188 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 16:16:20.592 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 16:16:20.593 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 16:16:22.865 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 16:16:22.867 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 16:16:22.867 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 16:16:22.965 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 16:16:23.060 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-07-10 16:18:55.516 [ main ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 14080 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 16:18:55.521 [ main ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 16:18:55.523 [ main ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 16:18:57.194 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 16:18:57.195 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 16:18:57.195 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 16:18:57.275 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 16:18:57.365 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-07-10 16:23:29.269 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 4352 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 16:23:29.273 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 16:23:29.274 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 16:23:31.242 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 16:23:31.242 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 16:23:31.242 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 16:23:31.332 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 16:23:31.412 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Stopping service [Tomcat]
+2020-07-10 20:38:25.466 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 10320 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 20:38:25.470 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 20:38:25.471 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 20:38:27.795 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 20:38:27.796 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 20:38:27.797 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 20:38:27.897 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 20:38:28.279 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 20:38:28.439 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 20:38:29.772 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 20:38:29.802 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 5.587 seconds (JVM running for 8.1)
+2020-07-10 20:41:40.487 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 20:41:40.527 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.IndexController.index', args=[]}
+2020-07-10 20:41:40.527 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : blog
+2020-07-10 20:44:00.148 [ http-nio-8801-exec-1 ] - [ ERROR ] [ com.simon.blog.Handler.ControllerExceptionHandler : 32 ] - Request URL : http://localhost:8801/admin/login, Exception : {}
+org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userName' is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:204)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-10 20:48:30.517 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 20:48:30.551 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String), 123123(String)
+2020-07-10 20:48:30.610 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 20:51:11.673 [ Thread-196 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-10 20:51:11.685 [ Thread-196 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-10 20:51:11.909 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 10320 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 20:51:11.909 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 20:51:11.909 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 20:51:12.606 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 20:51:12.606 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 20:51:12.606 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 20:51:12.661 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 20:51:12.869 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-2 - Starting...
+2020-07-10 20:51:12.877 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-2 - Start completed.
+2020-07-10 20:51:13.649 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 20:51:13.659 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 1.781 seconds (JVM running for 771.957)
+2020-07-10 20:51:14.499 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 20:51:14.518 [ http-nio-8801-exec-1 ] - [ ERROR ] [ com.simon.blog.Handler.ControllerExceptionHandler : 32 ] - Request URL : http://localhost:8801/admin/login, Exception : {}
+org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:204)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-10 20:51:18.178 [ http-nio-8801-exec-2 ] - [ ERROR ] [ com.simon.blog.Handler.ControllerExceptionHandler : 32 ] - Request URL : http://localhost:8801/admin/login, Exception : {}
+org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:204)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-10 20:51:29.562 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 20:51:29.564 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String), 123123(String)
+2020-07-10 20:51:29.567 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 20:52:29.473 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 20:52:29.474 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String), 123123(String)
+2020-07-10 20:52:29.476 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 21:04:12.044 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 18768 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:04:12.064 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:04:12.064 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:04:14.338 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:04:14.338 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:04:14.338 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:04:14.428 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:04:14.865 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 21:04:15.165 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 21:04:17.015 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:04:17.075 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 5.823 seconds (JVM running for 7.39)
+2020-07-10 21:04:45.657 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 21:04:55.692 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 21:04:55.720 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String), 123123(String)
+2020-07-10 21:04:55.752 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 21:26:24.684 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 16044 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:26:24.684 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:26:24.684 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:26:26.807 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:26:26.808 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:26:26.808 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:26:26.897 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:26:27.242 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 21:26:27.370 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 21:26:28.639 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:26:28.696 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 5.023 seconds (JVM running for 6.629)
+2020-07-10 21:27:43.587 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 21:27:51.732 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 21:27:51.764 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String), 4297f44b13955235245b2497399d7a93(String)
+2020-07-10 21:27:51.796 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 21:31:07.040 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 19312 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:31:07.044 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:31:07.045 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:31:10.730 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:31:10.731 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:31:10.732 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:31:10.863 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:31:11.651 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 21:31:11.872 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 21:31:13.558 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:31:13.606 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 7.467 seconds (JVM running for 9.398)
+2020-07-10 21:31:23.676 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 21:44:46.392 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:44:46.395 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:44:46.396 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:44:48.405 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:44:48.406 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:44:48.406 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:44:48.510 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:44:48.865 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 21:44:48.981 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 21:44:50.202 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:44:50.240 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 4.608 seconds (JVM running for 6.17)
+2020-07-10 21:45:26.563 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 21:45:44.725 [ Thread-196 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-10 21:45:44.747 [ Thread-196 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-10 21:45:45.083 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:45:45.084 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:45:45.084 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:45:45.807 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:45:45.809 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:45:45.810 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:45:45.847 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:45:45.926 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-2 - Starting...
+2020-07-10 21:45:45.932 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-2 - Start completed.
+2020-07-10 21:45:46.913 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:45:46.933 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 1.904 seconds (JVM running for 62.862)
+2020-07-10 21:46:21.749 [ Thread-203 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-2 - Shutdown initiated...
+2020-07-10 21:46:21.756 [ Thread-203 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-2 - Shutdown completed.
+2020-07-10 21:46:22.042 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:46:22.043 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:46:22.043 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:46:23.572 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:46:23.573 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:46:23.574 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:46:23.607 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:46:23.810 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-3 - Starting...
+2020-07-10 21:46:23.829 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-3 - Start completed.
+2020-07-10 21:46:25.437 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:46:25.455 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 3.459 seconds (JVM running for 101.384)
+2020-07-10 21:47:26.152 [ Thread-389 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-3 - Shutdown initiated...
+2020-07-10 21:47:26.159 [ Thread-389 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-3 - Shutdown completed.
+2020-07-10 21:47:26.660 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:47:26.661 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:47:26.663 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:47:27.836 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:47:27.846 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:47:27.846 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:47:27.866 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:47:27.956 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-4 - Starting...
+2020-07-10 21:47:27.966 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-4 - Start completed.
+2020-07-10 21:47:29.032 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:47:29.054 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.685 seconds (JVM running for 164.983)
+2020-07-10 21:51:59.605 [ Thread-575 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-4 - Shutdown initiated...
+2020-07-10 21:51:59.620 [ Thread-575 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-4 - Shutdown completed.
+2020-07-10 21:51:59.942 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:51:59.942 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:51:59.942 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:52:01.025 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:52:01.026 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:52:01.026 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:52:01.057 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:52:01.169 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-5 - Starting...
+2020-07-10 21:52:01.174 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-5 - Start completed.
+2020-07-10 21:52:02.477 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:52:02.508 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.627 seconds (JVM running for 438.437)
+2020-07-10 21:53:16.928 [ Thread-761 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-5 - Shutdown initiated...
+2020-07-10 21:53:16.946 [ Thread-761 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-5 - Shutdown completed.
+2020-07-10 21:53:17.193 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:53:17.194 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:53:17.194 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:53:18.409 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:53:18.410 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:53:18.410 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:53:18.431 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:53:18.482 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-6 - Starting...
+2020-07-10 21:53:18.487 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-6 - Start completed.
+2020-07-10 21:53:19.730 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:53:19.744 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.621 seconds (JVM running for 515.673)
+2020-07-10 21:53:34.409 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 21:53:41.961 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 21:53:41.991 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String), 658d128f20ee88e00e9607a475cdfaa5(String)
+2020-07-10 21:53:42.011 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 0
+2020-07-10 21:54:03.598 [ Thread-947 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-6 - Shutdown initiated...
+2020-07-10 21:54:03.605 [ Thread-947 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-6 - Shutdown completed.
+2020-07-10 21:54:04.027 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:54:04.028 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:54:04.030 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:54:04.742 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:54:04.742 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:54:04.744 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:54:04.763 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:54:04.855 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-7 - Starting...
+2020-07-10 21:54:04.861 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-7 - Start completed.
+2020-07-10 21:54:06.047 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:54:06.070 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.116 seconds (JVM running for 561.999)
+2020-07-10 21:54:06.092 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 21:54:10.407 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 21:54:10.408 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String), 8f14e45fceea167a5a36dedd4bea2543(String)
+2020-07-10 21:54:10.409 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 0
+2020-07-10 21:55:02.707 [ Thread-1133 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-7 - Shutdown initiated...
+2020-07-10 21:55:02.713 [ Thread-1133 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-7 - Shutdown completed.
+2020-07-10 21:55:02.904 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:55:02.905 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:55:02.905 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:55:03.627 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:55:03.628 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:55:03.629 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:55:03.656 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:55:03.791 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-8 - Starting...
+2020-07-10 21:55:03.796 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-8 - Start completed.
+2020-07-10 21:55:04.967 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:55:04.994 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.134 seconds (JVM running for 620.923)
+2020-07-10 21:55:05.088 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 21:55:09.380 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 21:55:09.381 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String), c81e728d9d4c2f636f067f89cc14862c(String)
+2020-07-10 21:55:09.383 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 0
+2020-07-10 21:56:44.280 [ Thread-1319 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-8 - Shutdown initiated...
+2020-07-10 21:56:44.287 [ Thread-1319 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-8 - Shutdown completed.
+2020-07-10 21:56:44.531 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:56:44.532 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:56:44.532 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:56:45.339 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:56:45.340 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:56:45.340 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:56:45.364 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:56:45.566 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-9 - Starting...
+2020-07-10 21:56:45.571 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-9 - Start completed.
+2020-07-10 21:56:46.903 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:56:46.917 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.428 seconds (JVM running for 722.846)
+2020-07-10 21:58:37.883 [ Thread-1505 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-9 - Shutdown initiated...
+2020-07-10 21:58:37.893 [ Thread-1505 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-9 - Shutdown completed.
+2020-07-10 21:58:38.064 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:58:38.064 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:58:38.065 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:58:38.913 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:58:38.913 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:58:38.914 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:58:38.940 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:58:39.095 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-10 - Starting...
+2020-07-10 21:58:39.103 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-10 - Start completed.
+2020-07-10 21:58:39.988 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:58:40.000 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 1.984 seconds (JVM running for 835.929)
+2020-07-10 21:59:29.133 [ Thread-1691 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-10 - Shutdown initiated...
+2020-07-10 21:59:29.153 [ Thread-1691 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-10 - Shutdown completed.
+2020-07-10 21:59:29.351 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 21:59:29.351 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 21:59:29.352 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 21:59:29.998 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:59:29.998 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 21:59:29.999 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 21:59:30.014 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 21:59:30.114 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-11 - Starting...
+2020-07-10 21:59:30.118 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-11 - Start completed.
+2020-07-10 21:59:30.985 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 21:59:30.999 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 1.69 seconds (JVM running for 886.928)
+2020-07-10 22:07:20.455 [ Thread-1875 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-11 - Shutdown initiated...
+2020-07-10 22:07:20.461 [ Thread-1875 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-11 - Shutdown completed.
+2020-07-10 22:07:20.663 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:07:20.664 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:07:20.664 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:07:21.822 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:07:21.822 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:07:21.823 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:07:21.853 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:07:22.363 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-12 - Starting...
+2020-07-10 22:07:22.374 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-12 - Start completed.
+2020-07-10 22:07:23.390 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:07:23.401 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.778 seconds (JVM running for 1359.33)
+2020-07-10 22:08:02.549 [ Thread-2061 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-12 - Shutdown initiated...
+2020-07-10 22:08:02.555 [ Thread-2061 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-12 - Shutdown completed.
+2020-07-10 22:08:02.851 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:08:02.851 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:08:02.852 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:08:03.996 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:08:03.996 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:08:03.997 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:08:04.029 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:08:04.172 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-13 - Starting...
+2020-07-10 22:08:04.271 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-13 - Start completed.
+2020-07-10 22:08:05.223 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:08:05.234 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.423 seconds (JVM running for 1401.168)
+2020-07-10 22:08:10.843 [ Thread-2247 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-13 - Shutdown initiated...
+2020-07-10 22:08:10.851 [ Thread-2247 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-13 - Shutdown completed.
+2020-07-10 22:08:11.024 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:08:11.024 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:08:11.025 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:08:11.803 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:08:11.803 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:08:11.804 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:08:11.825 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:08:11.913 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-14 - Starting...
+2020-07-10 22:08:11.917 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-14 - Start completed.
+2020-07-10 22:08:13.023 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:08:13.042 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.066 seconds (JVM running for 1408.971)
+2020-07-10 22:09:11.920 [ Thread-2433 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-14 - Shutdown initiated...
+2020-07-10 22:09:11.941 [ Thread-2433 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-14 - Shutdown completed.
+2020-07-10 22:09:12.186 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:09:12.187 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:09:12.188 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:09:12.776 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:09:12.777 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:09:12.777 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:09:12.792 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:09:12.869 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-15 - Starting...
+2020-07-10 22:09:12.873 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-15 - Start completed.
+2020-07-10 22:09:13.771 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:09:13.785 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 1.668 seconds (JVM running for 1469.714)
+2020-07-10 22:14:41.914 [ Thread-2619 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-15 - Shutdown initiated...
+2020-07-10 22:14:41.928 [ Thread-2619 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-15 - Shutdown completed.
+2020-07-10 22:14:42.208 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:14:42.208 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:14:42.209 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:14:43.012 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:14:43.013 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:14:43.013 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:14:43.045 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:14:43.181 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-16 - Starting...
+2020-07-10 22:14:43.186 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-16 - Start completed.
+2020-07-10 22:14:44.796 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:14:44.820 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.662 seconds (JVM running for 1800.749)
+2020-07-10 22:17:03.105 [ Thread-2805 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-16 - Shutdown initiated...
+2020-07-10 22:17:03.111 [ Thread-2805 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-16 - Shutdown completed.
+2020-07-10 22:17:03.383 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:17:03.384 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:17:03.384 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:17:03.946 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:17:03.947 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:17:03.947 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:17:03.970 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:17:04.169 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-17 - Starting...
+2020-07-10 22:17:04.169 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-17 - Start completed.
+2020-07-10 22:17:05.563 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:17:05.578 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.222 seconds (JVM running for 1941.507)
+2020-07-10 22:18:13.548 [ Thread-2991 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-17 - Shutdown initiated...
+2020-07-10 22:18:13.555 [ Thread-2991 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-17 - Shutdown completed.
+2020-07-10 22:18:13.938 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:18:13.939 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:18:13.939 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:18:14.985 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:18:14.986 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:18:14.986 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:18:15.012 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:18:15.163 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-18 - Starting...
+2020-07-10 22:18:15.171 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-18 - Start completed.
+2020-07-10 22:18:15.998 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:18:16.015 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.134 seconds (JVM running for 2011.944)
+2020-07-10 22:18:54.610 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 22:20:54.082 [ Thread-3177 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-18 - Shutdown initiated...
+2020-07-10 22:20:54.089 [ Thread-3177 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-18 - Shutdown completed.
+2020-07-10 22:20:54.396 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:20:54.397 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:20:54.397 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:20:55.178 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:20:55.179 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:20:55.180 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:20:55.213 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:20:55.298 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-19 - Starting...
+2020-07-10 22:20:55.304 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-19 - Start completed.
+2020-07-10 22:20:56.201 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:20:56.213 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 1.861 seconds (JVM running for 2172.142)
+2020-07-10 22:20:59.917 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 22:20:59.943 [ http-nio-8801-exec-1 ] - [ ERROR ] [ com.simon.blog.Handler.ControllerExceptionHandler : 32 ] - Request URL : http://localhost:8801/admin/login, Exception : {}
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:213)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:422)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:110)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-10 22:21:45.683 [ http-nio-8801-exec-7 ] - [ ERROR ] [ com.simon.blog.Handler.ControllerExceptionHandler : 32 ] - Request URL : http://localhost:8801/admin/login, Exception : {}
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:213)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:422)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:110)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-10 22:23:07.725 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 22:23:07.730 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String), 4297f44b13955235245b2497399d7a93(String)
+2020-07-10 22:23:07.744 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 22:26:22.318 [ Thread-3363 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-19 - Shutdown initiated...
+2020-07-10 22:26:22.323 [ Thread-3363 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-19 - Shutdown completed.
+2020-07-10 22:26:22.639 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:26:22.640 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:26:22.640 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:26:23.117 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:26:23.117 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:26:23.117 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:26:23.131 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:26:23.207 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-20 - Starting...
+2020-07-10 22:26:23.213 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-20 - Start completed.
+2020-07-10 22:26:24.507 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:26:24.535 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 1.919 seconds (JVM running for 2500.464)
+2020-07-10 22:26:24.683 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 22:28:20.537 [ Thread-3549 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-20 - Shutdown initiated...
+2020-07-10 22:28:20.551 [ Thread-3549 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-20 - Shutdown completed.
+2020-07-10 22:28:20.846 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:28:20.846 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:28:20.847 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:28:21.974 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:28:21.975 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:28:21.975 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:28:21.997 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:28:22.307 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-21 - Starting...
+2020-07-10 22:28:22.316 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-21 - Start completed.
+2020-07-10 22:28:23.718 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:28:23.732 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.921 seconds (JVM running for 2619.661)
+2020-07-10 22:29:57.182 [ Thread-3735 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-21 - Shutdown initiated...
+2020-07-10 22:29:57.182 [ Thread-3735 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-21 - Shutdown completed.
+2020-07-10 22:29:57.514 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 13456 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:29:57.515 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:29:57.515 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:29:58.358 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:29:58.359 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:29:58.360 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:29:58.400 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:29:58.509 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-22 - Starting...
+2020-07-10 22:29:58.514 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-22 - Start completed.
+2020-07-10 22:29:59.792 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:29:59.820 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.467 seconds (JVM running for 2715.749)
+2020-07-10 22:30:08.747 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 22:30:08.765 [ http-nio-8801-exec-1 ] - [ ERROR ] [ com.simon.blog.Handler.ControllerExceptionHandler : 32 ] - Request URL : http://localhost:8801/admin/login, Exception : {}
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:213)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:422)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:110)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-10 22:30:37.276 [ http-nio-8801-exec-10 ] - [ ERROR ] [ com.simon.blog.Handler.ControllerExceptionHandler : 32 ] - Request URL : http://localhost:8801/admin/login, Exception : {}
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:213)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:422)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:110)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-10 22:32:38.496 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 10712 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:32:38.500 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:32:38.503 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:32:40.887 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:32:40.888 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:32:40.889 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:32:40.978 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:32:41.322 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 22:32:41.438 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 22:32:42.833 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:32:42.877 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 5.231 seconds (JVM running for 6.911)
+2020-07-10 22:33:54.708 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 22:34:44.525 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==>  Preparing: select * from t_user where userName=? and password=? 
+2020-07-10 22:34:44.568 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - ==> Parameters: simon(String), 4297f44b13955235245b2497399d7a93(String)
+2020-07-10 22:34:44.601 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.findByUser : 159 ] - <==      Total: 1
+2020-07-10 22:34:54.925 [ http-nio-8801-exec-2 ] - [ ERROR ] [ com.simon.blog.Handler.ControllerExceptionHandler : 32 ] - Request URL : http://localhost:8801/admin/login, Exception : {}
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:213)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:422)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:110)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-10 22:37:45.136 [ http-nio-8801-exec-10 ] - [ ERROR ] [ com.simon.blog.Handler.ControllerExceptionHandler : 32 ] - Request URL : http://localhost:8801/admin/login, Exception : {}
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:213)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:422)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:110)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-10 22:38:21.640 [ Thread-197 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-10 22:38:21.651 [ Thread-197 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-10 22:38:21.998 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 10712 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:38:21.999 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:38:21.999 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:38:22.680 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:38:22.681 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:38:22.681 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:38:22.706 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:38:22.809 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-2 - Starting...
+2020-07-10 22:38:22.820 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-2 - Start completed.
+2020-07-10 22:38:23.902 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:38:23.919 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 1.995 seconds (JVM running for 347.952)
+2020-07-10 22:38:24.254 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 22:39:31.524 [ Thread-204 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-2 - Shutdown initiated...
+2020-07-10 22:39:31.536 [ Thread-204 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-2 - Shutdown completed.
+2020-07-10 22:39:31.896 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 10712 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:39:31.896 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:39:31.897 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:39:32.762 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:39:32.763 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:39:32.763 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:39:32.790 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:39:32.897 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-3 - Starting...
+2020-07-10 22:39:32.904 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-3 - Start completed.
+2020-07-10 22:39:34.224 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:39:34.244 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 2.404 seconds (JVM running for 418.277)
+2020-07-10 22:39:34.422 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 22:40:18.718 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 4488 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-10 22:40:18.721 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-10 22:40:18.722 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-10 22:40:20.888 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:40:20.889 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-10 22:40:20.890 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 22:40:20.982 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-10 22:40:21.366 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-10 22:40:21.498 [ restartedMain ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-10 22:40:22.833 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-10 22:40:22.879 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 5.115 seconds (JVM running for 6.926)
+2020-07-10 22:40:29.354 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'

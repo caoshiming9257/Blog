@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../../static/css/me.css" th:href="@{/css/me.css}">
+    <link rel="stylesheet" href="../../static/lib/editormd/css/editormd.min.css" th:src="@{/lib/editormd/css/editormd.min.css}">
+    <script src="../../static/js/jquery-2.1.1.min.js" th:src="@{/js/jquery-2.1.1.min.js}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script src="../../static/lib/editormd/editormd.min.js" th:src="@{/lib/editormd/editormd.min.js}"></script>
+    <title>标签新增</title>
+
+</head>
+
+<body>
+    <!-- 导航 -->
+    <nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+        <div class="ui container">
+            <div class="ui inverted secondary stackable menu">
+                <h2 class="ui teal header item">标签新增</h2>
+                <a href="#" th:href="@{/admin/blogs}" class="m-item item m-mobile-hide"><i class="small book icon"></i>博客</a>
+                <a href="#" th:href="@{/admin/types}" class=" m-item item m-mobile-hide"><i class="small idea icon"></i>分类</a>
+                <a href="#" th:href="@{/admin/tags}" class="active m-item item m-mobile-hide"><i class="small tags icon"></i>标签</a>
+                <div class="right m-item menu">
+                    <div class="ui item m-mobile-hide dropdown">
+                        <div class="text">
+                            <img class="ui avatar image" src="https://picsum.photos/id/108/100/100" th:src="@{${session.user.avatar}}">
+                            <span th:text="${session.user.nickName}">Simon</span>
+                        </div>
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a href="#" th:href="@{/admin/loginOut}" class="item">注销</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="ui black icon menu-toggle button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+    </nav>
+
+    <!-- 二级菜单 -->
+    <div class="ui attached pointing menu">
+        <div class="ui container">
+            <div class="right menu">
+                <a href="#" th:href="@{/admin/tags/input}" class="item teal active">新增</a>
+                <a href="#" th:href="@{/admin/tags}" class="item ">列表</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主体 -->
+    <div class=" m-container-small m-padded-tb-large">
+        <div class="ui container">
+            <form action="#" class="ui form" method="post"  th:action="*{id}==null ? @{/admin/tagBlog} : @{/admin/tagBlog/{id}(id = *{id})}" th:object="${tag}">
+                <input type="hidden" name="id" th:value="*{id}">
+                <div class="required field">
+                    <div class="ui left labeled input">
+                        <label class="ui teal basic label">标签</label>
+                        <input type="text" name="name" placeholder="标签新增" th:value="*{name}">
+                    </div>
+                </div>
+                <!-- 存放表单验证后的错误信息 -->
+                <div class="ui error message"></div>
+
+                <!--/*/
+                   <div class="ui negative message" th:if="${#fields.hasErrors('name')}">
+                        <i class="close icon"></i>
+                        <div class="header">
+                            验证失败:
+                        </div>
+                        <p th:errors="*{name}">提交的信息不符合规则</p>
+
+                   </div>
+                /*/-->
+                <!-- 按钮 -->
+                <div class="ui right aligned container">
+                    <button class="ui button" type="button" onclick="window.history.go(-1)">返回</button>
+                    <button class="ui teal submit button">新增</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </br>
+    </br>
+
+    <!-- 底部 -->
+    <footer class="ui inverted vertical segment m-padded-tb-massive">
+        <div class="ui center aligned container">
+            <div class="ui inverted divided stackable grid">
+                <div class="three wide column">
+                    <div class="ui inverted link list">
+                        <div class="item">
+                            <img src="../../static/image/wechat.png" th:src="@{/image/wechat.png}" class="ui rounded image" alt="" style="width: 120px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">用户故事(User Story)</a>
+                        <a href="#" class="item">用户故事(User Story)</a>
+                        <a href="#" class="item">用户故事(User Story)</a>
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced">联系我</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Email: 657281919@qq.com</a>
+                        <a href="#" class="item">QQ: 657281919</a>
+                    </div>
+                </div>
+                <div class="six wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced">说明</h4>
+                    <p class="m-text-thin m-text-spaced m-text-lined m-opacity-mini">
+                        这是我的个人博客，会分享一些自己编程遇到的问题和解决的方式，希望可以给来到这的人有所帮助....</p>
+                </div>
+            </div>
+            <div class="ui inverted section divider"></div>
+            <p class="m-text-thin m-text-spaced m-text-lined m-opacity-small">此博客正在建设中，始于2020/7/04</p>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript">
+    /* 手机端时点击菜单按钮弹出各页签 */
+    $(".menu-toggle").click(function () {
+        $(".m-item").toggleClass("m-mobile-hide");
+    })
+
+    /* 点击弹出注销 */
+    $('.ui.dropdown').dropdown({
+        // on : "hover"  //不加则需要点击
+    });
+
+    /* 使用semanticUI jquer方法来检查表单的提交 */
+    $('.form').form({
+        fields: {
+            name: {
+                identifier: 'name',
+                rules: [
+                    {
+                        type: 'empty',
+                        prompt: '请输入分类名称'
+                    }]
+            }
+        }
+    });
+</script>
+
+<script type="text/javascript">
+
+    /* 鼠标特效 */
+    var a_idx = 0;
+    $("body").click(function (e) {
+        var a = new Array("❤别怕 总有一个人给你爱❤", "❤总有一个人给你关怀❤", "❤别怕总有一个人让你依赖❤", "❤总有一个人可以带你走出阴霾❤", "❤当夜过后❤", "❤我恰巧和你撞个满怀❤", "❤世界有很多美好值得期待❤", "❤慢慢挣脱自己蜕变成一个小孩❤", "❤乌云刚好散开 我刚好走来❤", "❤别怕 总有一个人给你爱❤", "❤总有一个人给你关怀❤", "❤别怕 总有一个人可以让你依赖❤", "❤总有一个人可以带你走出阴霾❤", "❤就算世界不给你拥抱 我在❤");
+        var $i = $("<span></span>").text(a[a_idx]);
+        a_idx = (a_idx + 1) % a.length;
+        var x = e.pageX,
+            y = e.pageY;
+        $i.css({
+            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+            "top": y - 1,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+        });
+        $("body").append($i);
+        $i.animate({
+            "top": y - 300,
+            "opacity": 0.5
+        },
+            3000,
+            function () {
+                $i.remove();
+            });
+    });
+
+</script>
+
+</html>

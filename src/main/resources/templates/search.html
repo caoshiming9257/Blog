@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head th:replace="_fragments :: head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css">
+    <script src="../static/js/jquery-2.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <title>搜索</title>
+</head>
+
+<body>
+    <!-- 导航 -->
+    <nav th:replace="_fragments :: menu(0)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+        <div class="ui container">
+            <div class="ui inverted secondary stackable menu">
+                <h2 class="ui teal header item">搜索结果</h2>
+                <a href="#" class="m-item item m-mobile-hide"><i class=" home icon"></i>首页</a>
+                <a href="#" class=" m-item item m-mobile-hide"><i class=" idea icon"></i>分类</a>
+                <a href="#" class="active m-item item m-mobile-hide"><i class=" tags icon"></i>标签</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class=" clone icon"></i>归档</a>
+                <a href="#" class="m-item item m-mobile-hide"><i class=" info icon"></i>关于我</a>
+                <div class="right m-item item m-mobile-hide">
+                    <div class="ui icon inverted transparent input">
+                        <input type="text" placeholder="Search....">
+                        <i class="search link icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="ui black icon menu-toggle button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+    </nav>
+
+    <!-- 中间内容 -->
+    <div class=" m-container-small m-padded-tb-large">
+        <div class="ui container">
+            <div class="ui top attached segment">
+                <div class="ui middle aligned two column grid">
+                    <div class="column">
+                        <h3 class="ui teal header">标签</h3>
+                    </div>
+                    <div class="right aligned column">
+                        共<h3 class="ui orange header m-inline-block m-text-lined" th:text="${page.total}">15</h3>篇
+                    </div>
+                </div>
+            </div>
+            <div class="ui attached segment">
+                <div class="ui padded vertical segment m-padded-tb-large " th:each="blog : ${blogs}">
+                    <!-- mobile 响应手机端，reversed 反转，将图片放置文本上方 -->
+                    <div class="ui middle aligned mobile reversed stackable grid" >
+                        <div class="eleven wide column">
+                            <!--th:href="@{/blog/{id}(id=${blog.id})"-->
+                            <h3 class="ui header"><a href="#"  target="_blank" th:text="${blog.title}">HashSet与TreeSet与LinkedHashSet对比</a></h3>
+                            <p class="m-text" th:text="|${blog.description}.....|">HashSet不能保证元素的排列顺序，顺序有可能发生变化，不是同步的，集合元素可以是null,但只能放入一个null
+                                TreeSet是SortedSet接口的唯一实现类，TreeSet可以确保集合元素处于排序状态。</p>
+                            <div class="ui stackable grid">
+                                <div class="eleven wide column">
+                                    <div class="ui mini horizontal link list">
+                                        <div class="item">
+                                            <img src="https://picsum.photos/id/108/100/100" th:src="@{${user.avatar}}" alt=""
+                                                 class="ui avatar image">
+                                            <div class="content"><a href="#" class="header" th:text="${user.nickName}" >Simon</a></div>
+                                        </div>
+                                        <div class="item">
+                                            <i class="calendar icon" ></i><span th:text="${#dates.format(blog.updateTime, 'yyyy-MM-dd HH:mm:ss')}">2020-07-04</span>
+                                        </div>
+                                        <div class="item">
+                                            <i class="eye icon" ></i><span th:text="${blog.views}"> 99</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right aligned five wide column">
+                                    <a href="#" target="_blank"
+                                       class="ui teal basic label m-padded-tiny" th:text="${blog.typeName}">认知升级</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="five wide column">
+                            <!--th:href="@{/blog/{id}(id=${blog.id})"-->
+                            <a href="#" target="_blank" >
+                                <img src="https://picsum.photos/id/108/800/500"  th:src="${blog.firstPicture}" class="ui rounded image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 上下页 -->
+            <div class="ui bottom attached segment">
+                <div class="ui middle aligned two column grid" th:if="${page.pages}>1" >
+                    <div class="column">
+                        <a href="#" th:href="@{/blogs(page=${page.current}-1)}" class="ui mini teal basic button">上一页</a>
+                    </div>
+                    <div class="right aligned column">
+                        <a href="#" th:href="@{/blogs(page=${page.current}+1)}" class="ui mini teal basic button">下一页</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </br>
+    </br>
+
+    <!-- 底部 -->
+    <footer th:replace="_fragments :: footer" class="ui inverted vertical segment m-padded-tb-massive">
+        <div class="ui center aligned container">
+            <div class="ui inverted divided stackable grid">
+                <div class="three wide column">
+                    <div class="ui inverted link list">
+                        <div class="item">
+                            <img src="../static/image/wechat.png" class="ui rounded image" alt="" style="width: 120px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">用户故事(User Story)</a>
+                        <a href="#" class="item">用户故事(User Story)</a>
+                        <a href="#" class="item">用户故事(User Story)</a>
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced">联系我</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Email: 657281919@qq.com</a>
+                        <a href="#" class="item">QQ: 657281919</a>
+                    </div>
+                </div>
+                <div class="six wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced">说明</h4>
+                    <p class="m-text-thin m-text-spaced m-text-lined m-opacity-mini">
+                        这是我的个人博客，会分享一些自己编程遇到的问题和解决的方式，希望可以给来到这的人有所帮助....</p>
+                </div>
+            </div>
+            <div class="ui inverted section divider"></div>
+            <p class="m-text-thin m-text-spaced m-text-lined m-opacity-small">此博客正在建设中，始于2020/7/04</p>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript">
+    /* 手机端时点击菜单按钮弹出各页签 */
+    $(".menu-toggle").click(function () {
+        $(".m-item").toggleClass("m-mobile-hide");
+    })
+</script>
+
+<script type="text/javascript">
+
+    /* 鼠标特效 */
+    var a_idx = 0;
+    $(function () {
+        $("body").click(function (e) {
+            var a = new Array("❤别怕 总有一个人给你爱❤", "❤总有一个人给你关怀❤", "❤别怕总有一个人让你依赖❤", "❤总有一个人可以带你走出阴霾❤", "❤当夜过后❤", "❤我恰巧和你撞个满怀❤", "❤世界有很多美好值得期待❤", "❤慢慢挣脱自己蜕变成一个小孩❤", "❤乌云刚好散开 我刚好走来❤", "❤别怕 总有一个人给你爱❤", "❤总有一个人给你关怀❤", "❤别怕 总有一个人可以让你依赖❤", "❤总有一个人可以带你走出阴霾❤", "❤就算世界不给你拥抱 我在❤");
+            var $i = $("<span></span>").text(a[a_idx]);
+            a_idx = (a_idx + 1) % a.length;
+            var x = e.pageX,
+                y = e.pageY;
+            $i.css({
+                "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+                "top": y - 1,
+                "left": x,
+                "position": "absolute",
+                "font-weight": "bold",
+                "color": "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+            });
+            $("body").append($i);
+            $i.animate({
+                "top": y - 300,
+                "opacity": 0.5
+            },
+                3000,
+                function () {
+                    $i.remove();
+                });
+        });
+    });
+
+</script>
+
+</html>

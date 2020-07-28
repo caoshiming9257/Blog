@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../../static/css/me.css" th:href="@{/css/me.css}">
+    <script src="../../static/js/jquery-2.1.1.min.js" th:src="@{/js/jquery-2.1.1.min.js}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <title>标签管理</title>
+
+</head>
+
+<body>
+    <!-- 导航 -->
+    <nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+        <div class="ui container">
+            <div class="ui inverted secondary stackable menu">
+                <h2 class="ui teal header item">标签管理</h2>
+                <a href="#" th:href="@{/admin/blogs}" class=" m-item item m-mobile-hide"><i class="small book icon"></i>博客</a>
+                <a href="#" th:href="@{/admin/types}" class="m-item item m-mobile-hide"><i class="small idea icon"></i>分类</a>
+                <a href="#" th:href="@{/admin/tags}" class="active m-item item m-mobile-hide"><i class="small tags icon"></i>标签</a>
+                <div class="right m-item menu">
+                    <div class="ui item m-mobile-hide dropdown">
+                        <div class="text">
+                            <img class="ui avatar image" src="https://picsum.photos/id/108/100/100" th:src="@{${session.user.avatar}}">
+                            <span th:text="${session.user.nickName}">Simon</span>
+                        </div>
+                        <i class="dropdown icon"></i>
+                        <div class="menu">
+                            <a href="#" th:href="@{/admin/loginOut}" class="item">注销</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="ui black icon menu-toggle button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+    </nav>
+
+    <!-- 二级菜单 -->
+    <div class="ui attached pointing menu">
+        <div class="ui container">
+            <div class="right menu">
+                <a href="#" th:href="@{/admin/tags/input}" class="item">新增</a>
+                <a href="#" th:href="@{/admin/tags}" class="item teal active">列表</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 中间主体 -->
+    <div class=" m-container-small m-padded-tb-large">
+        <div class="ui container">
+            <div class="ui success message" th:unless="${#strings.isEmpty(message)}">
+                <i class="close icon"></i>
+                <div class="header">
+                    提示:
+                </div>
+                <p th:text="${message}">恭喜,操作成功！</p>
+
+            </div>
+
+
+            <!-- 表格 -->
+            <table class="ui celled table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>标题</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each = "tag : ${tags}">
+                        <td th:text="${tag.id}">1</td>
+                        <td th:text="${tag.name}">qq</td>
+                        <td >
+                            <a href="#" th:href="@{/admin/tags/{id}/input(id=${tag.id})}" class="ui mini orange basic button">编辑</a>
+                            <a href="#" th:href="@{/admin/tags/{id}/delete(id=${tag.id})}" class="ui mini red basic button">删除</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="6" th:each = "page : ${pages}">
+                            <div class="ui mini pagination menu" th:if="${page.pages}>1">
+                                <a href="#" th:href="@{/admin/tags(page=${page.current}-1)}" class="item" >上一页</a>
+                                <a href="#" th:href="@{/admin/tags(page=${page.current}+1)}" class="item" >下一页</a>
+                            </div>
+                            <a href="#" th:href="@{/admin/tags/input}" class="ui mini black basic right floated button">新增</a>
+                        </th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    </br>
+    </br>
+
+    <!-- 底部 -->
+    <footer class="ui inverted vertical segment m-padded-tb-massive">
+        <div class="ui center aligned container">
+            <div class="ui inverted divided stackable grid">
+                <div class="three wide column">
+                    <div class="ui inverted link list">
+                        <div class="item">
+                            <img src="../../static/image/wechat.png" th:src="@{/image/wechat.png}" class="ui rounded image" alt="" style="width: 120px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced">最新博客</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">用户故事(User Story)</a>
+                        <a href="#" class="item">用户故事(User Story)</a>
+                        <a href="#" class="item">用户故事(User Story)</a>
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced">联系我</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Email: 657281919@qq.com</a>
+                        <a href="#" class="item">QQ: 657281919</a>
+                    </div>
+                </div>
+                <div class="six wide column">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced">说明</h4>
+                    <p class="m-text-thin m-text-spaced m-text-lined m-opacity-mini">
+                        这是我的个人博客，会分享一些自己编程遇到的问题和解决的方式，希望可以给来到这的人有所帮助....</p>
+                </div>
+            </div>
+            <div class="ui inverted section divider"></div>
+            <p class="m-text-thin m-text-spaced m-text-lined m-opacity-small">此博客正在建设中，始于2020/7/04</p>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript">
+    /* 手机端时点击菜单按钮弹出各页签 */
+    $(".menu-toggle").click(function () {
+        $(".m-item").toggleClass("m-mobile-hide");
+    })
+
+    /* 点击弹出注销 */
+    $('.ui.dropdown').dropdown({
+        // on : "hover"  //不加则需要添加
+    });
+
+    /*可关闭消息提示*/
+    $('.message').on(
+        'click',function () {
+            $(this).closest('.message').transition('fade');
+        }
+    )
+</script>
+
+<script type="text/javascript">
+
+    /* 鼠标特效 */
+    var a_idx = 0;
+        $("body").click(function (e) {
+            var a = new Array("❤别怕 总有一个人给你爱❤", "❤总有一个人给你关怀❤", "❤别怕总有一个人让你依赖❤", "❤总有一个人可以带你走出阴霾❤", "❤当夜过后❤", "❤我恰巧和你撞个满怀❤", "❤世界有很多美好值得期待❤", "❤慢慢挣脱自己蜕变成一个小孩❤", "❤乌云刚好散开 我刚好走来❤", "❤别怕 总有一个人给你爱❤", "❤总有一个人给你关怀❤", "❤别怕 总有一个人可以让你依赖❤", "❤总有一个人可以带你走出阴霾❤", "❤就算世界不给你拥抱 我在❤");
+            var $i = $("<span></span>").text(a[a_idx]);
+            a_idx = (a_idx + 1) % a.length;
+            var x = e.pageX,
+                y = e.pageY;
+            $i.css({
+                "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+                "top": y - 1,
+                "left": x,
+                "position": "absolute",
+                "font-weight": "bold",
+                "color": "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+            });
+            $("body").append($i);
+            $i.animate({
+                "top": y - 300,
+                "opacity": 0.5
+            },
+                3000,
+                function () {
+                    $i.remove();
+                });
+        });
+
+</script>
+
+</html>

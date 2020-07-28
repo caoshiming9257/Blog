@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.simon.blog.dao.BlogTagMapper" >
+
+    <select id="findCountTag" resultMap="countTagMap">
+        select t_tag_id, COUNT(*) AS `count` from t_blog_tag group by t_tag_id order by count(*) DESC LIMIT 10
+    </select>
+
+    <resultMap type="com.simon.blog.pojo.CountName" id="countTagMap" >
+        <result property="tagId" column="t_tag_id"></result>
+        <result property="count" column="count"></result>
+    </resultMap>
+
+
+</mapper>

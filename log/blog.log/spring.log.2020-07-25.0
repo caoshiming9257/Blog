@@ -1,0 +1,1331 @@
+2020-07-25 14:24:28.774 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 55 ] - Starting BlogServiceImplTest on Simon with PID 14924 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 14:24:28.794 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 14:24:28.805 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 14:24:33.451 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 14:24:37.445 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 61 ] - Started BlogServiceImplTest in 10.09 seconds (JVM running for 12.649)
+2020-07-25 14:24:37.899 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-25 14:24:38.155 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-25 14:24:38.173 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 14:24:38.204 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 14:24:38.231 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 14:24:38.238 [ main ] - [ DEBUG ] [ com.simon.blog.dao.TypeMapper.typeAndCount : 143 ] - ==>  Preparing: SELECT e.name, e.id `id`,d.id as `blogId`,COUNT(*) as `count` from t_type e Left JOIN t_blog d on d.type_id = e.id group by e.id order by count(*) DESC LIMIT 100 
+2020-07-25 14:24:38.239 [ main ] - [ DEBUG ] [ com.simon.blog.dao.TypeMapper.typeAndCount : 143 ] - ==> Parameters: 
+2020-07-25 14:24:38.245 [ main ] - [ DEBUG ] [ com.simon.blog.dao.TypeMapper.typeAndCount : 143 ] - <==      Total: 5
+2020-07-25 14:24:38.320 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-25 14:24:38.339 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-25 14:45:11.412 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 55 ] - Starting BlogServiceImplTest on Simon with PID 14480 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 14:45:11.415 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 14:45:11.417 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 14:45:16.253 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 14:45:20.834 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 61 ] - Started BlogServiceImplTest in 10.464 seconds (JVM running for 12.612)
+2020-07-25 14:45:21.666 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-25 14:45:22.087 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-25 14:45:22.106 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 14:45:22.158 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 14:45:22.240 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 14:45:22.257 [ main ] - [ DEBUG ] [ com.simon.blog.dao.TypeMapper.typeAndCount : 143 ] - ==>  Preparing: SELECT e.name, e.id `id`,d.id as `blogId`,COUNT(*) as `count` from t_type e Left JOIN t_blog d on d.type_id = e.id group by e.id order by count(*) DESC LIMIT 100 
+2020-07-25 14:45:22.257 [ main ] - [ DEBUG ] [ com.simon.blog.dao.TypeMapper.typeAndCount : 143 ] - ==> Parameters: 
+2020-07-25 14:45:22.262 [ main ] - [ DEBUG ] [ com.simon.blog.dao.TypeMapper.typeAndCount : 143 ] - <==      Total: 5
+2020-07-25 14:45:22.331 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-25 14:45:22.355 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-25 14:47:55.466 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 17308 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 14:47:55.474 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 14:47:55.475 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 14:47:58.243 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-25 14:47:58.244 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-25 14:47:58.244 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-25 14:47:58.344 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-25 14:47:58.750 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 14:48:01.028 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-25 14:48:01.074 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 6.465 seconds (JVM running for 8.298)
+2020-07-25 14:49:47.882 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 14:49:47.939 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.IndexController.index', args=[{}, org.apache.catalina.connector.RequestFacade@2dc17e07]}
+2020-07-25 14:49:48.009 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-25 14:49:48.142 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-25 14:49:48.196 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==>  Preparing: SELECT COUNT(1) FROM t_blog 
+2020-07-25 14:49:48.219 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==> Parameters: 
+2020-07-25 14:49:48.248 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog LIMIT ?,? 
+2020-07-25 14:49:48.251 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==> Parameters: 0(Long), 3(Long)
+2020-07-25 14:49:48.268 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - <==      Total: 3
+2020-07-25 14:49:48.275 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 14:49:48.276 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:49:48.281 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:49:48.283 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - ==>  Preparing: select type_name, count(*) as 'count' from t_blog group by type_id order by count(*) DESC limit 5 
+2020-07-25 14:49:48.284 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - ==> Parameters: 
+2020-07-25 14:49:48.286 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - <==      Total: 3
+2020-07-25 14:49:48.312 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (recommend = ?) 
+2020-07-25 14:49:48.313 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: 1(Integer)
+2020-07-25 14:49:48.317 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 4
+2020-07-25 14:49:48.321 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - ==>  Preparing: select t_tag_id, COUNT(*) AS `count` from t_blog_tag group by t_tag_id order by count(*) DESC LIMIT 10 
+2020-07-25 14:49:48.321 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - ==> Parameters: 
+2020-07-25 14:49:48.325 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - <==      Total: 4
+2020-07-25 14:49:48.326 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 14:49:48.327 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:49:48.330 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:49:48.331 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 14:49:48.332 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 4(Long)
+2020-07-25 14:49:48.333 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:49:48.335 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 14:49:48.335 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 7(Long)
+2020-07-25 14:49:48.337 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:49:48.339 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 14:49:48.339 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 8(Long)
+2020-07-25 14:49:48.340 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:49:48.341 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : index
+2020-07-25 14:49:51.962 [ http-nio-8801-exec-3 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.TagShowController.tags', args=[-1, {}, org.apache.catalina.connector.RequestFacade@1787af40]}
+2020-07-25 14:49:51.973 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==>  Preparing: SELECT e.name, e.id `id`,d.t_blog_id as `blogId`,COUNT(*) as `count` from t_tag e Left JOIN t_blog_tag d on d.t_tag_id = e.id group by e.id order by count(*) DESC LIMIT 100 
+2020-07-25 14:49:51.974 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==> Parameters: 
+2020-07-25 14:49:51.978 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - <==      Total: 9
+2020-07-25 14:49:51.981 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:49:51.984 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:49:51.990 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - <==      Total: 4
+2020-07-25 14:49:51.997 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==>  Preparing: SELECT COUNT(1) FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:49:51.998 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:49:52.002 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id ORDER BY e.id LIMIT ?,? 
+2020-07-25 14:49:52.004 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==> Parameters: 1(Long), 0(Long), 3(Long)
+2020-07-25 14:49:52.008 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - <==      Total: 3
+2020-07-25 14:49:52.010 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:49:52.011 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:49:52.012 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 2
+2020-07-25 14:49:52.014 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:49:52.015 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 2(Long)
+2020-07-25 14:49:52.018 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 1
+2020-07-25 14:49:52.021 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:49:52.022 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 3(Long)
+2020-07-25 14:49:52.024 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 2
+2020-07-25 14:49:52.026 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 14:49:52.027 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:49:52.029 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:49:52.030 [ http-nio-8801-exec-3 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : tags
+2020-07-25 14:49:54.925 [ http-nio-8801-exec-6 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.TypeShowController.types', args=[-1, {}, org.apache.catalina.connector.RequestFacade@2dc17e07]}
+2020-07-25 14:49:54.938 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.TypeMapper.typeAndCount : 143 ] - ==>  Preparing: SELECT e.name, e.id `id`,d.id as `blogId`,COUNT(*) as `count` from t_type e Left JOIN t_blog d on d.type_id = e.id group by e.id order by count(*) DESC LIMIT 100 
+2020-07-25 14:49:54.939 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.TypeMapper.typeAndCount : 143 ] - ==> Parameters: 
+2020-07-25 14:49:54.943 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.TypeMapper.typeAndCount : 143 ] - <==      Total: 5
+2020-07-25 14:49:54.947 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (type_id = ?) 
+2020-07-25 14:49:54.948 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: 21(Long)
+2020-07-25 14:49:54.957 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:49:54.960 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.TypeMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_type WHERE id=? 
+2020-07-25 14:49:54.960 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.TypeMapper.selectById : 143 ] - ==> Parameters: 21(Long)
+2020-07-25 14:49:54.962 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.TypeMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:49:54.968 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==>  Preparing: SELECT COUNT(1) FROM t_blog WHERE (type_name = ?) 
+2020-07-25 14:49:54.969 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==> Parameters: 学习知识点(String)
+2020-07-25 14:49:54.972 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (type_name = ?) LIMIT ?,? 
+2020-07-25 14:49:54.973 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==> Parameters: 学习知识点(String), 0(Long), 3(Long)
+2020-07-25 14:49:54.976 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - <==      Total: 2
+2020-07-25 14:49:54.978 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:49:54.979 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 3(Long)
+2020-07-25 14:49:54.980 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 2
+2020-07-25 14:49:54.983 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:49:54.984 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 4(Long)
+2020-07-25 14:49:54.985 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 2
+2020-07-25 14:49:54.987 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 14:49:54.988 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:49:54.991 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:49:54.991 [ http-nio-8801-exec-6 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : types
+2020-07-25 14:49:58.455 [ http-nio-8801-exec-8 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.TagShowController.tags', args=[-1, {}, org.apache.catalina.connector.RequestFacade@1aedcbab]}
+2020-07-25 14:49:58.460 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==>  Preparing: SELECT e.name, e.id `id`,d.t_blog_id as `blogId`,COUNT(*) as `count` from t_tag e Left JOIN t_blog_tag d on d.t_tag_id = e.id group by e.id order by count(*) DESC LIMIT 100 
+2020-07-25 14:49:58.462 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==> Parameters: 
+2020-07-25 14:49:58.465 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - <==      Total: 9
+2020-07-25 14:49:58.468 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:49:58.468 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:49:58.472 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - <==      Total: 4
+2020-07-25 14:49:58.475 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==>  Preparing: SELECT COUNT(1) FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:49:58.476 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:49:58.478 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id ORDER BY e.id LIMIT ?,? 
+2020-07-25 14:49:58.478 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==> Parameters: 1(Long), 0(Long), 3(Long)
+2020-07-25 14:49:58.481 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - <==      Total: 3
+2020-07-25 14:49:58.484 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:49:58.484 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:49:58.486 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 2
+2020-07-25 14:49:58.488 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:49:58.489 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 2(Long)
+2020-07-25 14:49:58.491 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 1
+2020-07-25 14:49:58.492 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:49:58.493 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 3(Long)
+2020-07-25 14:49:58.495 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 2
+2020-07-25 14:49:58.496 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 14:49:58.497 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:49:58.499 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:49:58.500 [ http-nio-8801-exec-8 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : tags
+2020-07-25 14:50:03.861 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/tags/8', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.TagShowController.tags', args=[8, {}, org.apache.catalina.connector.RequestFacade@1787af40]}
+2020-07-25 14:50:03.865 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==>  Preparing: SELECT e.name, e.id `id`,d.t_blog_id as `blogId`,COUNT(*) as `count` from t_tag e Left JOIN t_blog_tag d on d.t_tag_id = e.id group by e.id order by count(*) DESC LIMIT 100 
+2020-07-25 14:50:03.866 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==> Parameters: 
+2020-07-25 14:50:03.868 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - <==      Total: 9
+2020-07-25 14:50:03.869 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:50:03.870 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==> Parameters: 8(Long)
+2020-07-25 14:50:03.872 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - <==      Total: 1
+2020-07-25 14:50:03.874 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==>  Preparing: SELECT COUNT(1) FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:50:03.875 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==> Parameters: 8(Long)
+2020-07-25 14:50:03.879 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id ORDER BY e.id LIMIT ?,? 
+2020-07-25 14:50:03.879 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==> Parameters: 8(Long), 0(Long), 3(Long)
+2020-07-25 14:50:03.883 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - <==      Total: 1
+2020-07-25 14:50:03.884 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:50:03.885 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 4(Long)
+2020-07-25 14:50:03.887 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 2
+2020-07-25 14:50:03.889 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 14:50:03.890 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:50:03.904 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:50:03.905 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : tags
+2020-07-25 14:50:06.486 [ http-nio-8801-exec-3 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/tags/4', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.TagShowController.tags', args=[4, {}, org.apache.catalina.connector.RequestFacade@498f8555]}
+2020-07-25 14:50:06.490 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==>  Preparing: SELECT e.name, e.id `id`,d.t_blog_id as `blogId`,COUNT(*) as `count` from t_tag e Left JOIN t_blog_tag d on d.t_tag_id = e.id group by e.id order by count(*) DESC LIMIT 100 
+2020-07-25 14:50:06.492 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==> Parameters: 
+2020-07-25 14:50:06.495 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - <==      Total: 9
+2020-07-25 14:50:06.497 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:50:06.498 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==> Parameters: 4(Long)
+2020-07-25 14:50:06.500 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - <==      Total: 1
+2020-07-25 14:50:06.504 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==>  Preparing: SELECT COUNT(1) FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:50:06.505 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==> Parameters: 4(Long)
+2020-07-25 14:50:06.506 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id ORDER BY e.id LIMIT ?,? 
+2020-07-25 14:50:06.507 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==> Parameters: 4(Long), 0(Long), 3(Long)
+2020-07-25 14:50:06.509 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - <==      Total: 1
+2020-07-25 14:50:06.510 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:50:06.511 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:50:06.512 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 2
+2020-07-25 14:50:06.515 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 14:50:06.515 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:50:06.517 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:50:06.518 [ http-nio-8801-exec-3 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : tags
+2020-07-25 14:50:08.848 [ http-nio-8801-exec-4 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/tags/7', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.TagShowController.tags', args=[7, {}, org.apache.catalina.connector.RequestFacade@2dc17e07]}
+2020-07-25 14:50:08.850 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==>  Preparing: SELECT e.name, e.id `id`,d.t_blog_id as `blogId`,COUNT(*) as `count` from t_tag e Left JOIN t_blog_tag d on d.t_tag_id = e.id group by e.id order by count(*) DESC LIMIT 100 
+2020-07-25 14:50:08.851 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==> Parameters: 
+2020-07-25 14:50:08.853 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - <==      Total: 9
+2020-07-25 14:50:08.854 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:50:08.855 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==> Parameters: 7(Long)
+2020-07-25 14:50:08.857 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - <==      Total: 1
+2020-07-25 14:50:08.861 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==>  Preparing: SELECT COUNT(1) FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:50:08.861 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==> Parameters: 7(Long)
+2020-07-25 14:50:08.864 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id ORDER BY e.id LIMIT ?,? 
+2020-07-25 14:50:08.866 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==> Parameters: 7(Long), 0(Long), 3(Long)
+2020-07-25 14:50:08.868 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - <==      Total: 1
+2020-07-25 14:50:08.869 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:50:08.869 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 3(Long)
+2020-07-25 14:50:08.871 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 2
+2020-07-25 14:50:08.871 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 14:50:08.872 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:50:08.873 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:50:08.873 [ http-nio-8801-exec-4 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : tags
+2020-07-25 14:50:10.988 [ http-nio-8801-exec-5 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/tags/9', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.TagShowController.tags', args=[9, {}, org.apache.catalina.connector.RequestFacade@2dc17e07]}
+2020-07-25 14:50:10.993 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==>  Preparing: SELECT e.name, e.id `id`,d.t_blog_id as `blogId`,COUNT(*) as `count` from t_tag e Left JOIN t_blog_tag d on d.t_tag_id = e.id group by e.id order by count(*) DESC LIMIT 100 
+2020-07-25 14:50:10.994 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==> Parameters: 
+2020-07-25 14:50:10.996 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - <==      Total: 9
+2020-07-25 14:50:10.998 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:50:10.999 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==> Parameters: 9(Long)
+2020-07-25 14:50:11.000 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - <==      Total: 0
+2020-07-25 14:50:11.002 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 14:50:11.003 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:50:11.004 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:50:11.005 [ http-nio-8801-exec-5 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : tags
+2020-07-25 14:50:13.982 [ http-nio-8801-exec-6 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 14:50:13.988 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year desc 
+2020-07-25 14:50:13.989 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 14:50:13.991 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 14:50:13.995 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:50:13.997 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 14:50:13.999 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:50:14.002 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:50:14.002 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 14:50:14.004 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:50:14.006 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:50:14.006 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 14:50:14.007 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:50:14.009 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 14:50:14.009 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 14:50:14.011 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 14:50:14.012 [ http-nio-8801-exec-6 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 14:50:14.027 [ http-nio-8801-exec-6 ] - [ ERROR ] [ org.thymeleaf.TemplateEngine : 1136 ] - [THYMELEAF][http-nio-8801-exec-6] Exception processing template "archives": An error happened during template parsing (template: "class path resource [templates/archives.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/archives.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Could not parse as each: "${blog :${map.value}" (template: "archives" - line 54, col 97)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${blog :${map.value}" (template: "archives" - line 54, col 97)
+	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68)
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+2020-07-25 14:50:14.031 [ http-nio-8801-exec-6 ] - [ ERROR ] [ o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] : 175 ] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/archives.html]")] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${blog :${map.value}" (template: "archives" - line 54, col 97)
+	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68)
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-25 14:51:09.076 [ http-nio-8801-exec-10 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 14:51:09.078 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year desc 
+2020-07-25 14:51:09.079 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 14:51:09.081 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 14:51:09.084 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:51:09.085 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 14:51:09.092 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:51:09.095 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:51:09.096 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 14:51:09.098 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:51:09.102 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:51:09.102 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 14:51:09.106 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:51:09.107 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 14:51:09.107 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 14:51:09.108 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 14:51:09.108 [ http-nio-8801-exec-10 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 14:51:09.115 [ http-nio-8801-exec-10 ] - [ ERROR ] [ org.thymeleaf.TemplateEngine : 1136 ] - [THYMELEAF][http-nio-8801-exec-10] Exception processing template "archives": An error happened during template parsing (template: "class path resource [templates/archives.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/archives.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Could not parse as each: "${blog :${map.value}}" (template: "archives" - line 54, col 97)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${blog :${map.value}}" (template: "archives" - line 54, col 97)
+	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68)
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+2020-07-25 14:51:09.116 [ http-nio-8801-exec-10 ] - [ ERROR ] [ o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] : 175 ] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/archives.html]")] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${blog :${map.value}}" (template: "archives" - line 54, col 97)
+	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68)
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-25 14:51:11.981 [ http-nio-8801-exec-5 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.TagShowController.tags', args=[-1, {}, org.apache.catalina.connector.RequestFacade@498f8555]}
+2020-07-25 14:51:11.983 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==>  Preparing: SELECT e.name, e.id `id`,d.t_blog_id as `blogId`,COUNT(*) as `count` from t_tag e Left JOIN t_blog_tag d on d.t_tag_id = e.id group by e.id order by count(*) DESC LIMIT 100 
+2020-07-25 14:51:11.984 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - ==> Parameters: 
+2020-07-25 14:51:11.988 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.tagAndCount : 143 ] - <==      Total: 9
+2020-07-25 14:51:11.990 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:51:11.991 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:51:11.993 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findBlogByTagId : 143 ] - <==      Total: 4
+2020-07-25 14:51:11.995 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==>  Preparing: SELECT COUNT(1) FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id 
+2020-07-25 14:51:11.995 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:51:11.997 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==>  Preparing: SELECT * FROM t_blog e RIGHT JOIN (SELECT t_blog_id FROM t_blog_tag WHERE t_tag_id = ?) t ON t.t_blog_id = e.id ORDER BY e.id LIMIT ?,? 
+2020-07-25 14:51:11.997 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - ==> Parameters: 1(Long), 0(Long), 3(Long)
+2020-07-25 14:51:11.999 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.pageByTagId : 143 ] - <==      Total: 3
+2020-07-25 14:51:12.000 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:51:12.000 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:51:12.001 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 2
+2020-07-25 14:51:12.002 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:51:12.003 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 2(Long)
+2020-07-25 14:51:12.005 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 1
+2020-07-25 14:51:12.006 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==>  Preparing: SELECT * FROM t_tag e RIGHT JOIN (select * FROM t_blog_tag where t_blog_id = ?) t ON t.t_tag_id = e.id ORDER BY e.id 
+2020-07-25 14:51:12.007 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - ==> Parameters: 3(Long)
+2020-07-25 14:51:12.008 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.findTagByBlogId : 143 ] - <==      Total: 2
+2020-07-25 14:51:12.009 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 14:51:12.009 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:51:12.010 [ http-nio-8801-exec-5 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:51:12.011 [ http-nio-8801-exec-5 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : tags
+2020-07-25 14:51:14.422 [ http-nio-8801-exec-8 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 14:51:14.425 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year desc 
+2020-07-25 14:51:14.426 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 14:51:14.427 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 14:51:14.429 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:51:14.429 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 14:51:14.432 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:51:14.435 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:51:14.437 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 14:51:14.438 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:51:14.440 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:51:14.441 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 14:51:14.442 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:51:14.443 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 14:51:14.444 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 14:51:14.444 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 14:51:14.445 [ http-nio-8801-exec-8 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 14:51:14.450 [ http-nio-8801-exec-8 ] - [ ERROR ] [ org.thymeleaf.TemplateEngine : 1136 ] - [THYMELEAF][http-nio-8801-exec-8] Exception processing template "archives": An error happened during template parsing (template: "class path resource [templates/archives.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/archives.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Could not parse as each: "${blog :${map.value}}" (template: "archives" - line 54, col 97)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${blog :${map.value}}" (template: "archives" - line 54, col 97)
+	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68)
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+2020-07-25 14:51:14.451 [ http-nio-8801-exec-8 ] - [ ERROR ] [ o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] : 175 ] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/archives.html]")] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${blog :${map.value}}" (template: "archives" - line 54, col 97)
+	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68)
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-07-25 14:53:30.622 [ http-nio-8801-exec-2 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 14:53:30.625 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year desc 
+2020-07-25 14:53:30.625 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 14:53:30.627 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 14:53:30.631 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:53:30.632 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 14:53:30.635 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:53:30.637 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:53:30.638 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 14:53:30.639 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:53:30.642 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:53:30.643 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 14:53:30.644 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:53:30.646 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 14:53:30.647 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 14:53:30.649 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 14:53:30.650 [ http-nio-8801-exec-2 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 14:54:09.898 [ http-nio-8801-exec-9 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 14:54:09.900 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year desc 
+2020-07-25 14:54:09.900 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 14:54:09.901 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 14:54:09.904 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:54:09.905 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 14:54:09.910 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:54:09.914 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:54:09.915 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 14:54:09.917 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:54:09.920 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:54:09.920 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 14:54:09.922 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:54:09.923 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 14:54:09.924 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 14:54:09.926 [ http-nio-8801-exec-9 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 14:54:09.926 [ http-nio-8801-exec-9 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 14:55:06.308 [ http-nio-8801-exec-10 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 14:55:06.310 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year desc 
+2020-07-25 14:55:06.311 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 14:55:06.312 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 14:55:06.316 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:55:06.316 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 14:55:06.318 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:55:06.321 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:55:06.322 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 14:55:06.323 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:55:06.326 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:55:06.326 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 14:55:06.328 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:55:06.329 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 14:55:06.330 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 14:55:06.332 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 14:55:06.333 [ http-nio-8801-exec-10 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 14:55:25.851 [ http-nio-8801-exec-7 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 14:55:25.854 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year desc 
+2020-07-25 14:55:25.854 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 14:55:25.856 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 14:55:25.858 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:55:25.859 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 14:55:25.861 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:55:25.865 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:55:25.866 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 14:55:25.868 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:55:25.870 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:55:25.871 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 14:55:25.873 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:55:25.874 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 14:55:25.875 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 14:55:25.876 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 14:55:25.877 [ http-nio-8801-exec-7 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 14:56:01.301 [ http-nio-8801-exec-4 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 14:56:01.302 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year desc 
+2020-07-25 14:56:01.303 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 14:56:01.304 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 14:56:01.308 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:56:01.309 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 14:56:01.313 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:56:01.316 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:56:01.317 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 14:56:01.318 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:01.320 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:56:01.321 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 14:56:01.322 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:01.323 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 14:56:01.325 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 14:56:01.325 [ http-nio-8801-exec-4 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 14:56:01.326 [ http-nio-8801-exec-4 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 14:56:08.091 [ http-nio-8801-exec-6 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.IndexController.blog', args=[{}, 1]}
+2020-07-25 14:56:08.095 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 14:56:08.096 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:56:08.097 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.111 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectById : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE id=? 
+2020-07-25 14:56:08.112 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:56:08.113 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.218 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.updateView : 143 ] - ==>  Preparing: update t_blog set views = views+1 where id = ? 
+2020-07-25 14:56:08.219 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.updateView : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:56:08.226 [ http-nio-8801-exec-6 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : blog
+2020-07-25 14:56:08.849 [ http-nio-8801-exec-7 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/comments/1', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.CommentController.comments', args=[1, {}]}
+2020-07-25 14:56:08.860 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (blog_id = ? AND parentComment_id IS NULL) 
+2020-07-25 14:56:08.861 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:56:08.869 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 3
+2020-07-25 14:56:08.876 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.877 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:56:08.878 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.880 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.880 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 3(Long)
+2020-07-25 14:56:08.881 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:56:08.883 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.884 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 3(Long)
+2020-07-25 14:56:08.886 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:56:08.891 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.892 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 4(Long)
+2020-07-25 14:56:08.895 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.898 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.899 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 4(Long)
+2020-07-25 14:56:08.900 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.903 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.904 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 4(Long)
+2020-07-25 14:56:08.908 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.911 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.911 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 5(Long)
+2020-07-25 14:56:08.913 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 0
+2020-07-25 14:56:08.917 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.918 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 18(Long)
+2020-07-25 14:56:08.920 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 0
+2020-07-25 14:56:08.924 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.926 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 2(Long)
+2020-07-25 14:56:08.927 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:56:08.930 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.932 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 6(Long)
+2020-07-25 14:56:08.933 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:56:08.937 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.938 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 6(Long)
+2020-07-25 14:56:08.943 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:56:08.947 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.948 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 7(Long)
+2020-07-25 14:56:08.949 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.952 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.953 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 7(Long)
+2020-07-25 14:56:08.955 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.958 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.958 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 7(Long)
+2020-07-25 14:56:08.960 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.963 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.963 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 9(Long)
+2020-07-25 14:56:08.965 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.968 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.969 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 9(Long)
+2020-07-25 14:56:08.972 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.975 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.976 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 9(Long)
+2020-07-25 14:56:08.978 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.980 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.981 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 17(Long)
+2020-07-25 14:56:08.982 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 0
+2020-07-25 14:56:08.985 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.985 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 14(Long)
+2020-07-25 14:56:08.987 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 0
+2020-07-25 14:56:08.990 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.991 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 8(Long)
+2020-07-25 14:56:08.992 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:08.995 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:08.996 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 8(Long)
+2020-07-25 14:56:08.997 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:56:09.000 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:09.000 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 16(Long)
+2020-07-25 14:56:09.002 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 0
+2020-07-25 14:56:09.004 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==>  Preparing: SELECT id,nickName,content,email,avatar,createTime,adminComment,blog_id,parentComment_id FROM t_comment WHERE (parentComment_id = ?) 
+2020-07-25 14:56:09.005 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - ==> Parameters: 13(Long)
+2020-07-25 14:56:09.007 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.CommentMapper.selectList : 143 ] - <==      Total: 0
+2020-07-25 14:56:09.008 [ http-nio-8801-exec-7 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : blog :: commentList
+2020-07-25 14:57:20.813 [ Thread-204 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-25 14:57:20.843 [ Thread-204 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-25 14:57:21.209 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 17308 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 14:57:21.209 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 14:57:21.210 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 14:57:21.919 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-25 14:57:21.919 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-25 14:57:21.920 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-25 14:57:21.949 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-25 14:57:22.140 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 14:57:24.414 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-25 14:57:24.429 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 3.255 seconds (JVM running for 571.654)
+2020-07-25 14:57:28.675 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 15136 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 14:57:28.681 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 14:57:28.681 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 14:57:30.789 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-25 14:57:30.790 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-25 14:57:30.790 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-25 14:57:30.881 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-25 14:57:31.277 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 14:57:33.415 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-25 14:57:33.454 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 5.674 seconds (JVM running for 7.56)
+2020-07-25 14:59:52.356 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 14:59:52.403 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 14:59:52.438 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-25 14:59:52.594 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-25 14:59:52.614 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year 
+2020-07-25 14:59:52.638 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 14:59:52.660 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 14:59:52.732 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:59:52.733 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 14:59:52.741 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:59:52.745 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:59:52.746 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 14:59:52.749 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 14:59:52.753 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 14:59:52.755 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 14:59:52.759 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 14:59:52.761 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 14:59:52.762 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 14:59:52.763 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 14:59:52.764 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 14:59:57.984 [ http-nio-8801-exec-8 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.IndexController.index', args=[{}, org.apache.catalina.connector.RequestFacade@7a8ac1dc]}
+2020-07-25 14:59:58.027 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==>  Preparing: SELECT COUNT(1) FROM t_blog 
+2020-07-25 14:59:58.028 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==> Parameters: 
+2020-07-25 14:59:58.041 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog LIMIT ?,? 
+2020-07-25 14:59:58.042 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==> Parameters: 0(Long), 3(Long)
+2020-07-25 14:59:58.046 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - <==      Total: 3
+2020-07-25 14:59:58.048 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 14:59:58.049 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:59:58.053 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:59:58.057 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - ==>  Preparing: select type_name, count(*) as 'count' from t_blog group by type_id order by count(*) DESC limit 5 
+2020-07-25 14:59:58.057 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - ==> Parameters: 
+2020-07-25 14:59:58.059 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - <==      Total: 3
+2020-07-25 14:59:58.062 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (recommend = ?) 
+2020-07-25 14:59:58.063 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: 1(Integer)
+2020-07-25 14:59:58.067 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 4
+2020-07-25 14:59:58.074 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - ==>  Preparing: select t_tag_id, COUNT(*) AS `count` from t_blog_tag group by t_tag_id order by count(*) DESC LIMIT 10 
+2020-07-25 14:59:58.075 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - ==> Parameters: 
+2020-07-25 14:59:58.077 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - <==      Total: 4
+2020-07-25 14:59:58.078 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 14:59:58.079 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 14:59:58.081 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:59:58.082 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 14:59:58.083 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 4(Long)
+2020-07-25 14:59:58.085 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:59:58.088 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 14:59:58.089 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 7(Long)
+2020-07-25 14:59:58.090 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:59:58.092 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 14:59:58.092 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 8(Long)
+2020-07-25 14:59:58.093 [ http-nio-8801-exec-8 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 14:59:58.094 [ http-nio-8801-exec-8 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : index
+2020-07-25 15:00:00.249 [ http-nio-8801-exec-6 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 15:00:00.254 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year 
+2020-07-25 15:00:00.255 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 15:00:00.257 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 15:00:00.261 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:00:00.263 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 15:00:00.267 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:00:00.272 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:00:00.273 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 15:00:00.276 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:00:00.278 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:00:00.279 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 15:00:00.281 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 15:00:00.282 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 15:00:00.283 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 15:00:00.286 [ http-nio-8801-exec-6 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 15:00:00.287 [ http-nio-8801-exec-6 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 15:00:41.100 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 15480 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 15:00:41.104 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 15:00:41.105 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 15:00:43.412 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-25 15:00:43.413 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-25 15:00:43.413 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-25 15:00:43.500 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-25 15:00:43.903 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 15:00:45.998 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-25 15:00:46.038 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 5.842 seconds (JVM running for 7.339)
+2020-07-25 15:02:45.867 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 15:02:45.921 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.IndexController.index', args=[{}, org.apache.catalina.connector.RequestFacade@634de21b]}
+2020-07-25 15:02:46.012 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-25 15:02:46.204 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-25 15:02:46.277 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==>  Preparing: SELECT COUNT(1) FROM t_blog 
+2020-07-25 15:02:46.330 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==> Parameters: 
+2020-07-25 15:02:46.385 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog LIMIT ?,? 
+2020-07-25 15:02:46.387 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==> Parameters: 0(Long), 3(Long)
+2020-07-25 15:02:46.409 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - <==      Total: 3
+2020-07-25 15:02:46.417 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 15:02:46.419 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 15:02:46.425 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:02:46.427 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - ==>  Preparing: select type_name, count(*) as 'count' from t_blog group by type_id order by count(*) DESC limit 5 
+2020-07-25 15:02:46.428 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - ==> Parameters: 
+2020-07-25 15:02:46.430 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - <==      Total: 3
+2020-07-25 15:02:46.487 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (recommend = ?) 
+2020-07-25 15:02:46.489 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: 1(Integer)
+2020-07-25 15:02:46.499 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 4
+2020-07-25 15:02:46.507 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - ==>  Preparing: select t_tag_id, COUNT(*) AS `count` from t_blog_tag group by t_tag_id order by count(*) DESC LIMIT 10 
+2020-07-25 15:02:46.508 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - ==> Parameters: 
+2020-07-25 15:02:46.522 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - <==      Total: 4
+2020-07-25 15:02:46.532 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 15:02:46.533 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 15:02:46.536 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:02:46.538 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 15:02:46.539 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 4(Long)
+2020-07-25 15:02:46.542 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:02:46.545 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 15:02:46.545 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 7(Long)
+2020-07-25 15:02:46.548 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:02:46.549 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 15:02:46.550 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 8(Long)
+2020-07-25 15:02:46.552 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:02:46.554 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : index
+2020-07-25 15:02:49.963 [ http-nio-8801-exec-2 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 15:02:49.972 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year ASC 
+2020-07-25 15:02:49.974 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 15:02:49.976 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 15:02:49.983 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:02:49.984 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 15:02:49.988 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:02:49.994 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:02:49.995 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 15:02:49.998 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:02:50.002 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:02:50.003 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 15:02:50.005 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 15:02:50.009 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 15:02:50.010 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 15:02:50.012 [ http-nio-8801-exec-2 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 15:02:50.013 [ http-nio-8801-exec-2 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 15:03:05.069 [ http-nio-8801-exec-3 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.IndexController.index', args=[{}, org.apache.catalina.connector.RequestFacade@18ec927a]}
+2020-07-25 15:03:05.074 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==>  Preparing: SELECT COUNT(1) FROM t_blog 
+2020-07-25 15:03:05.075 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==> Parameters: 
+2020-07-25 15:03:05.081 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog LIMIT ?,? 
+2020-07-25 15:03:05.083 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==> Parameters: 0(Long), 3(Long)
+2020-07-25 15:03:05.087 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - <==      Total: 3
+2020-07-25 15:03:05.090 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 15:03:05.091 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 15:03:05.095 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:03:05.097 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - ==>  Preparing: select type_name, count(*) as 'count' from t_blog group by type_id order by count(*) DESC limit 5 
+2020-07-25 15:03:05.097 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - ==> Parameters: 
+2020-07-25 15:03:05.099 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - <==      Total: 3
+2020-07-25 15:03:05.102 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (recommend = ?) 
+2020-07-25 15:03:05.103 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: 1(Integer)
+2020-07-25 15:03:05.110 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 4
+2020-07-25 15:03:05.112 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - ==>  Preparing: select t_tag_id, COUNT(*) AS `count` from t_blog_tag group by t_tag_id order by count(*) DESC LIMIT 10 
+2020-07-25 15:03:05.112 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - ==> Parameters: 
+2020-07-25 15:03:05.113 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - <==      Total: 4
+2020-07-25 15:03:05.115 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 15:03:05.115 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 15:03:05.116 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:03:05.118 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 15:03:05.119 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 8(Long)
+2020-07-25 15:03:05.120 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:03:05.121 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 15:03:05.122 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 4(Long)
+2020-07-25 15:03:05.123 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:03:05.124 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 15:03:05.125 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 7(Long)
+2020-07-25 15:03:05.126 [ http-nio-8801-exec-3 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:03:05.127 [ http-nio-8801-exec-3 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : index
+2020-07-25 15:03:07.775 [ http-nio-8801-exec-7 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 15:03:07.776 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year ASC 
+2020-07-25 15:03:07.777 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 15:03:07.778 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 15:03:07.780 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:03:07.781 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 15:03:07.785 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:03:07.788 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:03:07.790 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 15:03:07.792 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:03:07.794 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:03:07.795 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 15:03:07.797 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 15:03:07.798 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 15:03:07.799 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 15:03:07.800 [ http-nio-8801-exec-7 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 15:03:07.801 [ http-nio-8801-exec-7 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 15:03:25.695 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 12048 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 15:03:25.700 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 15:03:25.703 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 15:03:28.015 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-25 15:03:28.016 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-25 15:03:28.016 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-25 15:03:28.106 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-25 15:03:28.642 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 15:03:30.694 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-25 15:03:30.734 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 5.977 seconds (JVM running for 7.502)
+2020-07-25 15:06:13.063 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 15:06:13.122 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 15:06:13.212 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-25 15:06:13.487 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-25 15:06:13.515 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year Desc 
+2020-07-25 15:06:13.551 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 15:06:13.589 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 15:06:13.787 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:06:13.789 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 15:06:13.805 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 15:06:13.809 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:06:13.811 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 15:06:13.817 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:06:13.828 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:06:13.843 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 15:06:13.849 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:06:13.853 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 15:06:13.854 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 15:06:13.871 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 15:06:13.875 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives
+2020-07-25 15:09:56.153 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 55 ] - Starting BlogServiceImplTest on Simon with PID 9604 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 15:09:56.157 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 15:09:56.158 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 15:10:01.063 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 15:10:05.533 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 61 ] - Started BlogServiceImplTest in 10.525 seconds (JVM running for 12.618)
+2020-07-25 15:10:05.863 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-25 15:10:06.105 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-25 15:10:06.124 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year Desc 
+2020-07-25 15:10:06.167 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 15:10:06.201 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 15:10:06.316 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:10:06.317 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 15:10:06.326 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 15:10:06.329 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:10:06.330 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 15:10:06.333 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:10:06.337 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:10:06.337 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 15:10:06.344 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:10:06.499 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-25 15:10:06.567 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-25 15:12:20.572 [ Thread-203 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-25 15:12:20.596 [ Thread-203 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-25 15:12:21.014 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 12048 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 15:12:21.015 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 15:12:21.016 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 15:12:22.807 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-25 15:12:22.808 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-25 15:12:22.810 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-25 15:12:22.842 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-25 15:12:23.019 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 15:12:25.091 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 55 ] - Starting BlogServiceImplTest on Simon with PID 4928 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 15:12:25.098 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 15:12:25.100 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 15:12:27.352 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-25 15:12:27.367 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 6.405 seconds (JVM running for 544.136)
+2020-07-25 15:12:29.728 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 15:12:34.350 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 61 ] - Started BlogServiceImplTest in 10.597 seconds (JVM running for 13.09)
+2020-07-25 15:12:34.694 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-25 15:12:34.924 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-25 15:12:34.944 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year Desc 
+2020-07-25 15:12:34.997 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 15:12:35.039 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 15:12:35.175 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:12:35.177 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 15:12:35.185 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 15:12:35.188 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:12:35.189 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 15:12:35.193 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:12:35.196 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:12:35.197 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 15:12:35.202 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:12:35.286 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-25 15:12:35.324 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-25 15:13:15.321 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 12048 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 15:13:15.321 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 15:13:15.323 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 15:13:18.529 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-25 15:13:18.530 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-25 15:13:18.530 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-25 15:13:18.566 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-25 15:13:18.994 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 15:13:21.708 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 55 ] - Starting BlogServiceImplTest on Simon with PID 16632 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 15:13:21.711 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 15:13:21.712 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 15:13:24.666 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-25 15:13:24.688 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 9.44 seconds (JVM running for 601.457)
+2020-07-25 15:13:27.788 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 15:13:34.249 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 61 ] - Started BlogServiceImplTest in 14.371 seconds (JVM running for 19.001)
+2020-07-25 15:13:34.762 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-25 15:13:35.308 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-25 15:13:35.344 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year Desc 
+2020-07-25 15:13:35.438 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 15:13:35.527 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 15:13:44.990 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:13:44.993 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 15:13:45.024 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 15:14:06.872 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:14:06.875 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 15:14:06.899 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:14:20.642 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:14:20.643 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 15:14:20.661 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:19:00.821 [ HikariPool-1 housekeeper ] - [ WARN  ] [ com.zaxxer.hikari.pool.HikariPool : 787 ] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m54s8ms837µs500ns).
+2020-07-25 15:19:00.924 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-25 15:19:00.959 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-25 15:19:06.572 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 12048 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 15:19:06.573 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 15:19:06.573 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 15:19:08.396 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-25 15:19:08.397 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-25 15:19:08.398 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-25 15:19:08.450 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-25 15:19:08.725 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 15:19:10.393 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 55 ] - Starting BlogServiceImplTest on Simon with PID 2392 (started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 15:19:10.396 [ main ] - [ DEBUG ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 15:19:10.397 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 15:19:13.025 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-25 15:19:13.041 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 6.53 seconds (JVM running for 949.809)
+2020-07-25 15:19:15.295 [ main ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 15:19:19.078 [ main ] - [ INFO  ] [ com.simon.blog.service.Impl.BlogServiceImplTest : 61 ] - Started BlogServiceImplTest in 9.812 seconds (JVM running for 12.457)
+2020-07-25 15:19:19.389 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-25 15:19:19.629 [ main ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-25 15:19:19.647 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year Desc 
+2020-07-25 15:19:19.716 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 15:19:19.770 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 15:19:19.920 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:19:19.922 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 15:19:19.940 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 15:19:19.945 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:19:19.947 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 15:19:19.953 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:19:19.967 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:19:19.968 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 15:19:19.988 [ main ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:19:20.059 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 350 ] - HikariPool-1 - Shutdown initiated...
+2020-07-25 15:19:20.102 [ SpringContextShutdownHook ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 352 ] - HikariPool-1 - Shutdown completed.
+2020-07-25 15:20:05.038 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 55 ] - Starting BlogApplication on Simon with PID 2988 (D:\developProject\my-project\blog\target\classes started by 吴倩 in D:\developProject\my-project\blog)
+2020-07-25 15:20:05.042 [ restartedMain ] - [ DEBUG ] [ com.simon.blog.BlogApplication : 56 ] - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-25 15:20:05.043 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 651 ] - No active profile set, falling back to default profiles: default
+2020-07-25 15:20:07.218 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8801"]
+2020-07-25 15:20:07.219 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-07-25 15:20:07.219 [ restartedMain ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-25 15:20:07.307 [ restartedMain ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-07-25 15:20:07.723 [ restartedMain ] - [ WARN  ] [ c.b.mybatisplus.core.metadata.TableInfoHelper : 301 ] - Can not find table primary key in Class: "com.simon.blog.pojo.BlogTagRelation".
+2020-07-25 15:20:09.939 [ restartedMain ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8801"]
+2020-07-25 15:20:09.979 [ restartedMain ] - [ INFO  ] [ com.simon.blog.BlogApplication : 61 ] - Started BlogApplication in 5.815 seconds (JVM running for 7.785)
+2020-07-25 15:21:27.897 [ http-nio-8801-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-25 15:21:27.947 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.IndexController.index', args=[{}, org.apache.catalina.connector.RequestFacade@17e20372]}
+2020-07-25 15:21:28.003 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 110 ] - HikariPool-1 - Starting...
+2020-07-25 15:21:28.164 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.zaxxer.hikari.HikariDataSource : 123 ] - HikariPool-1 - Start completed.
+2020-07-25 15:21:28.214 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==>  Preparing: SELECT COUNT(1) FROM t_blog 
+2020-07-25 15:21:28.243 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==> Parameters: 
+2020-07-25 15:21:28.287 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog LIMIT ?,? 
+2020-07-25 15:21:28.290 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - ==> Parameters: 0(Long), 3(Long)
+2020-07-25 15:21:28.309 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectPage : 143 ] - <==      Total: 3
+2020-07-25 15:21:28.317 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==>  Preparing: SELECT id,nickName,userName,password,email,avatar,type,createTime FROM t_user WHERE id=? 
+2020-07-25 15:21:28.318 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 15:21:28.349 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.UserMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:21:28.350 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - ==>  Preparing: select type_name, count(*) as 'count' from t_blog group by type_id order by count(*) DESC limit 5 
+2020-07-25 15:21:28.351 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - ==> Parameters: 
+2020-07-25 15:21:28.352 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.findCountTypeName : 143 ] - <==      Total: 3
+2020-07-25 15:21:28.386 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (recommend = ?) 
+2020-07-25 15:21:28.387 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: 1(Integer)
+2020-07-25 15:21:28.392 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 4
+2020-07-25 15:21:28.399 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - ==>  Preparing: select t_tag_id, COUNT(*) AS `count` from t_blog_tag group by t_tag_id order by count(*) DESC LIMIT 10 
+2020-07-25 15:21:28.400 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - ==> Parameters: 
+2020-07-25 15:21:28.402 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.BlogTagMapper.findCountTag : 143 ] - <==      Total: 4
+2020-07-25 15:21:28.403 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 15:21:28.404 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 1(Long)
+2020-07-25 15:21:28.406 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:21:28.407 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 15:21:28.409 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 4(Long)
+2020-07-25 15:21:28.410 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:21:28.413 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 15:21:28.414 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 7(Long)
+2020-07-25 15:21:28.415 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:21:28.417 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==>  Preparing: SELECT id,name FROM t_tag WHERE id=? 
+2020-07-25 15:21:28.417 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - ==> Parameters: 8(Long)
+2020-07-25 15:21:28.419 [ http-nio-8801-exec-1 ] - [ DEBUG ] [ com.simon.blog.dao.TagMapper.selectById : 143 ] - <==      Total: 1
+2020-07-25 15:21:28.419 [ http-nio-8801-exec-1 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : index
+2020-07-25 15:21:56.457 [ http-nio-8801-exec-10 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 45 ] - Requect : {url='http://localhost:8801/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.simon.blog.web.ArchivesController.archives', args=[{}]}
+2020-07-25 15:21:56.462 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==>  Preparing: SELECT distinct date_format(updateTime,'%Y') AS year FROM t_blog ORDER BY year Desc 
+2020-07-25 15:21:56.463 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - ==> Parameters: 
+2020-07-25 15:21:56.466 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.getBlogByUpdateYear : 143 ] - <==      Total: 3
+2020-07-25 15:21:56.475 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:21:56.476 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2020%(String)
+2020-07-25 15:21:56.480 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 2
+2020-07-25 15:21:56.484 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:21:56.486 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2019%(String)
+2020-07-25 15:21:56.491 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:21:56.496 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==>  Preparing: SELECT id,title,description,content,firstPicture,flag,views,appreciation,shareStatement,commentabled,published,recommend,createTime,updateTime,type_id,user_id,type_name FROM t_blog WHERE (updateTime LIKE ?) 
+2020-07-25 15:21:56.497 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - ==> Parameters: %2018%(String)
+2020-07-25 15:21:56.500 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectList : 143 ] - <==      Total: 1
+2020-07-25 15:21:56.502 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==>  Preparing: SELECT COUNT( 1 ) FROM t_blog 
+2020-07-25 15:21:56.502 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - ==> Parameters: 
+2020-07-25 15:21:56.503 [ http-nio-8801-exec-10 ] - [ DEBUG ] [ com.simon.blog.dao.BlogMapper.selectCount : 143 ] - <==      Total: 1
+2020-07-25 15:21:56.505 [ http-nio-8801-exec-10 ] - [ INFO  ] [ com.simon.blog.Aspact.LogAspact : 58 ] - result : archives

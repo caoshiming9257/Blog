@@ -11,6 +11,9 @@ import com.simon.blog.pojo.*;
 import com.simon.blog.service.BlogService;
 import com.simon.blog.util.MarkDownUtil;
 import org.springframework.beans.BeanUtils;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.RedisSerializer;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

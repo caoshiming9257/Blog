@@ -109,7 +109,7 @@ public class TagServiceImpl implements TagService {
                 pageTag = (Page<Tag>)redisTemplate.opsForValue().get("pageTag");
                 if (pageTag == null){
                     pageTag = tagMapper.selectPage(tagPage, null);
-                    redisTemplate.opsForValue().set("pageTag",pageTag,1000, TimeUnit.SECONDS);
+                    redisTemplate.opsForValue().set("pageTag",pageTag,60, TimeUnit.SECONDS);
                 }
             }
         }

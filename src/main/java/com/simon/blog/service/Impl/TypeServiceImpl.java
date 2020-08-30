@@ -8,12 +8,16 @@ import com.simon.blog.pojo.CountName;
 import com.simon.blog.pojo.Type;
 import com.simon.blog.service.TypeService;
 import org.springframework.beans.BeanUtils;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.RedisSerializer;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import javax.validation.constraints.NotBlank;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @program: blog
@@ -26,6 +30,16 @@ public class TypeServiceImpl implements TypeService {
 
     @Resource
     TypeMapper typeMapper;
+
+    @Resource
+    RedisTemplate<Object,Object> redisTemplate;
+
+    /**key的序列化*/
+    private void keySerializer(){
+        RedisSerializer redisSerializer = new StringRedisSerializer();
+        redisTemplate.setKeySerializer(redisSerializer);
+    }
+
 
     /**插入分类*/
     @Override
@@ -50,15 +64,36 @@ public class TypeServiceImpl implements TypeService {
     /**获取所有的分类*/
     @Override
     public List<Type> listAllType() {
-        return typeMapper.selectList(null);
+        keySerializer();
+        List<Type> allType = (List<Type>)redisTemplate.opsForValue().get("allType");
+        if (allType == null){
+            synchronized (this){
+                allType = (List<Type>)redisTemplate.opsForValue().get("allType");
+                if (allType == null){
+                    allType = typeMapper.selectList(null);
+                    redisTemplate.opsForValue().set("allType",allType,1000, TimeUnit.SECONDS);
+                }
+            }
+        }
+        return allType;
     }
 
     /**分页查询分类*/
     @Transactional
     @Override
     public Page<Type> pageType(Page<Type> typePage) {
-        Page<Type> types = typeMapper.selectPage(typePage, null);
-        return types;
+        keySerializer();
+        Page<Type> pageType = (Page<Type>)redisTemplate.opsForValue().get("pageType");
+        if (pageType == null){
+            synchronized (this){
+                pageType = (Page<Type>)redisTemplate.opsForValue().get("pageType");
+                if (pageType == null){
+                    pageType = typeMapper.selectPage(typePage, null);
+                    redisTemplate.opsForValue().set("pageType",pageType,1000, TimeUnit.SECONDS);
+                }
+            }
+        }
+        return pageType;
     }
 
     /**根据id更新分类*/

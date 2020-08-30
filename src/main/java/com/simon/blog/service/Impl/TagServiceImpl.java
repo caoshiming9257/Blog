@@ -11,12 +11,16 @@ import com.simon.blog.pojo.Type;
 import com.simon.blog.service.TagService;
 import com.simon.blog.service.TypeService;
 import com.simon.blog.util.StringListUtil;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.RedisSerializer;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @program: blog
@@ -29,6 +33,15 @@ public class TagServiceImpl implements TagService {
 
     @Resource
     TagMapper tagMapper;
+
+    @Resource
+    RedisTemplate<Object,Object> redisTemplate;
+
+    /**key的序列化*/
+    private void keySerializer(){
+        RedisSerializer redisSerializer = new StringRedisSerializer();
+        redisTemplate.setKeySerializer(redisSerializer);
+    }
 
     /**插入标签*/
     @Transactional
@@ -54,21 +67,53 @@ public class TagServiceImpl implements TagService {
     /**根据标签ID集合获取所有的标签*/
     @Override
     public List<Tag> listTag(String tags) {
-        return tagMapper.selectBatchIds(StringListUtil.convertToList(tags));
+        keySerializer();
+        List<Tag> idByTag = (List<Tag>)redisTemplate.opsForValue().get("idByTag");
+        if (idByTag == null){
+            synchronized (this){
+                idByTag = (List<Tag>)redisTemplate.opsForValue().get("idByTag");
+                if (idByTag == null){
+                    idByTag = tagMapper.selectBatchIds(StringListUtil.convertToList(tags));
+                    redisTemplate.opsForValue().set("idByTag",idByTag,1000, TimeUnit.SECONDS);
+                }
+            }
+        }
+        return idByTag;
     }
 
     /**获取所有的标签*/
     @Override
     public List<Tag> listAllTag() {
-        return tagMapper.selectList(null);
+        keySerializer();
+        List<Tag> allTag = (List<Tag>)redisTemplate.opsForValue().get("allTag");
+        if (allTag == null){
+            synchronized (this){
+                allTag = (List<Tag>)redisTemplate.opsForValue().get("allTag");
+                if (allTag == null){
+                    allTag = tagMapper.selectList(null);
+                    redisTemplate.opsForValue().set("allTag",allTag,1000, TimeUnit.SECONDS);
+                }
+            }
+        }
+        return allTag;
     }
 
     /**分页查询标签*/
     @Transactional
     @Override
     public Page<Tag> pageTag(Page<Tag> tagPage) {
-        Page<Tag> types = tagMapper.selectPage(tagPage, null);
-        return types;
+        keySerializer();
+        Page<Tag> pageTag = (Page<Tag>)redisTemplate.opsForValue().get("pageTag");
+        if (pageTag == null){
+            synchronized (this){
+                pageTag = (Page<Tag>)redisTemplate.opsForValue().get("pageTag");
+                if (pageTag == null){
+                    pageTag = tagMapper.selectPage(tagPage, null);
+                    redisTemplate.opsForValue().set("pageTag",pageTag,1000, TimeUnit.SECONDS);
+                }
+            }
+        }
+        return pageTag;
     }
 
     /**根据id更新标签*/
@@ -95,7 +140,18 @@ public class TagServiceImpl implements TagService {
     /**联合查询所有的tag和博客中使用的tag次数**/
     @Override
     public List<CountName> tagAndCount() {
-        return tagMapper.tagAndCount();
+        keySerializer();
+        List<CountName> tagCount = (List<CountName>)redisTemplate.opsForValue().get("tagCount");
+        if (tagCount == null){
+            synchronized (this){
+                tagCount = (List<CountName>)redisTemplate.opsForValue().get("tagCount");
+                if (tagCount == null){
+                    tagCount = tagMapper.tagAndCount();
+                    redisTemplate.opsForValue().set("tagCount",tagCount,1000, TimeUnit.SECONDS);
+                }
+            }
+        }
+        return tagCount;
     }
 
     /*根据博客id 获取对应的所有标签*/

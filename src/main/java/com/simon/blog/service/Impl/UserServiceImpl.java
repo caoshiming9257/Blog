@@ -21,7 +21,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User checkUser(String userName,String password) {
-
         return userMapper.findByUser(userName, MD5Utils.code(password));
     }
 

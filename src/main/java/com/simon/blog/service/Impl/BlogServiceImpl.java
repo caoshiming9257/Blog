@@ -1,5 +1,6 @@
 package com.simon.blog.service.Impl;
 
+import com.alibaba.druid.sql.visitor.functions.If;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -19,6 +20,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @program: blog
@@ -37,6 +39,15 @@ public class BlogServiceImpl implements BlogService {
 
     @Resource
     BlogTagMapper blogTagMapper;
+
+    @Resource
+    RedisTemplate<Object,Object> redisTemplate;
+
+    /**key的序列化*/
+    private void keySerializer(){
+        RedisSerializer redisSerializer = new StringRedisSerializer();
+        redisTemplate.setKeySerializer(redisSerializer);
+    }
 
     /**插入博客*/
     @Transactional
@@ -133,15 +144,37 @@ public class BlogServiceImpl implements BlogService {
     /**根据分类名称排序,获取名称和次数**/
     @Override
     public List<CountName> findCountTypeName() {
+        keySerializer();
+        List<CountName> countTypeName = (List<CountName>)redisTemplate.opsForValue().get("countTypeName");
+        if (countTypeName == null){
+            synchronized (this){
+                countTypeName = (List<CountName>)redisTemplate.opsForValue().get("countTypeName");
+                if (countTypeName == null){
+                    countTypeName = blogMapper.findCountTypeName();
+                    redisTemplate.opsForValue().set("countTypeName",countTypeName,600, TimeUnit.SECONDS);
+                }
+            }
+        }
         return blogMapper.findCountTypeName();
     }
 
     /**根据推荐的次数排序,获取博客和次数**/
     @Override
     public List<Blog> findCountRecommendName() {
-        QueryWrapper queryWrapper = new QueryWrapper();
-        queryWrapper.eq("recommend",1);
-        return blogMapper.selectList(queryWrapper);
+        keySerializer();
+        List<Blog> countRecommendName = (List<Blog>)redisTemplate.opsForValue().get("countRecommendName");
+        if (countRecommendName == null){
+            synchronized (this){
+                countRecommendName = (List<Blog>)redisTemplate.opsForValue().get("countRecommendName");
+                if (countRecommendName == null){
+                    QueryWrapper queryWrapper = new QueryWrapper();
+                    queryWrapper.eq("recommend",1);
+                    countRecommendName = blogMapper.selectList(queryWrapper);
+                    redisTemplate.opsForValue().set("countRecommendName",countRecommendName,600, TimeUnit.SECONDS);
+                }
+            }
+        }
+        return countRecommendName;
     }
 
     /*根据type id查看是否有存在的博客*/
@@ -160,22 +193,51 @@ public class BlogServiceImpl implements BlogService {
 
     /**获取博客修改日期中的年份**/
     @Override
-    public Map<String,List<Blog>> getBlogByUpdateYear() {
-        List<String> blogUpdateYear = blogMapper.getBlogByUpdateYear();
-        LinkedHashMap<String,List<Blog>> map = new LinkedHashMap<>();
-        QueryWrapper queryWrapper = new QueryWrapper();
-        for (String year : blogUpdateYear){
-            queryWrapper.like("updateTime",year);
-            List<Blog> list = blogMapper.selectList(queryWrapper);
-            map.put(year,list);
-            queryWrapper.clear();
+    public LinkedHashMap<String,List<Blog>> getBlogByUpdateYear() {
+        keySerializer();
+        LinkedHashMap<String,List<Blog>> blogByUpdateYear = (LinkedHashMap<String,List<Blog>>)redisTemplate.opsForValue().get("blogByUpdateYear");
+        if (blogByUpdateYear == null){
+            synchronized (this){
+                blogByUpdateYear = (LinkedHashMap<String,List<Blog>>)redisTemplate.opsForValue().get("blogByUpdateYear");
+                if (blogByUpdateYear == null){
+                    List<String> blogUpdateYear = blogMapper.getBlogByUpdateYear();
+                    QueryWrapper queryWrapper = new QueryWrapper();
+                    for (String year : blogUpdateYear){
+                        queryWrapper.like("updateTime",year);
+                        List<Blog> list = blogMapper.selectList(queryWrapper);
+                        blogByUpdateYear.put(year,list);
+                        queryWrapper.clear();
+                    }
+                    redisTemplate.opsForValue().set("blogByUpdateYear",blogByUpdateYear,600,TimeUnit.SECONDS);
+                }
+            }
         }
-        return map;
+//        List<String> blogUpdateYear = blogMapper.getBlogByUpdateYear();
+//        LinkedHashMap<String,List<Blog>> map = new LinkedHashMap<>();
+//        QueryWrapper queryWrapper = new QueryWrapper();
+//        for (String year : blogUpdateYear){
+//            queryWrapper.like("updateTime",year);
+//            List<Blog> list = blogMapper.selectList(queryWrapper);
+//            map.put(year,list);
+//            queryWrapper.clear();
+//        }
+        return blogByUpdateYear;
     }
 
     /**获取博客总数**/
     @Override
     public Integer getAllBlogCount() {
-        return blogMapper.selectCount(null);
+        keySerializer();
+        Integer allBlogCount = (Integer) redisTemplate.opsForValue().get("allBlogCount");
+        if (allBlogCount == 0){
+            synchronized (this){
+                allBlogCount = (Integer) redisTemplate.opsForValue().get("allBlogCount");
+                if (allBlogCount == 0){
+                    allBlogCount = blogMapper.selectCount(null);
+                    redisTemplate.opsForValue().set("allBlogCount",allBlogCount,600,TimeUnit.SECONDS);
+                }
+            }
+        }
+        return allBlogCount;
     }
 }
